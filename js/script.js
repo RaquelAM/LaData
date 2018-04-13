@@ -6,5 +6,13 @@ $(document).ready(function(){
 		$(".sub-menu-opts").toggleClass("open");
 		$(".up").toggle();
 		$(".down").toggle();
+	});
+	//Animation sub-meu
+	$(window).scroll(function(){
+		if ($(document).scrollTop() >= 70) {
+			$("#sub-menu").addClass("fixed");
+		}else{
+			$("#sub-menu").removeClass("fixed");	
+		}
 	})
 })

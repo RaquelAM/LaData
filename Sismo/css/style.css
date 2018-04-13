@@ -177,14 +177,19 @@ footer{
 	width: 100%;
 	background-color: #000;
 }
+#sub-menu.fixed{
+	position: fixed;
+    top: 0;
+    z-index: 99999;
+}
 .sub-menu-opts{
 	height: 0;
 	overflow: hidden;
-    -webkit-transition: all 1.5s ease-out;
-    -moz-transition: all 1.5s ease-out;
-    -ms-transition: all 1.5s ease-out;
-    -o-transition: all 1.5s ease-out;
-    transition: all 1.5s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
 }
 .sub-menu-opts.open{
 	height: 47px;
