@@ -1,0 +1,142 @@
+body{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+	overflow-x: hidden;
+}
+header{
+	height: 70px;
+	font-weight: normal;
+}
+header .row:nth-of-type(1){
+	height: 100%;
+}
+
+/**Commun**/
+.vertical-align{
+	height: 100%;
+	display: table;
+}
+.vertical-item{
+	display: table-cell !important;
+	vertical-align: middle;
+}
+/**Padding**/
+.p-0{
+	padding: 0;
+}
+
+/**Header**/
+.icon-menu{
+	font-size: 40px;
+}
+.container-logo{
+	height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container-logo img{
+	height: 100%;
+}
+.txt-header{
+	padding-top: 35px;
+}
+
+/**Banner**/
+#banner-container{
+	position: relative;
+}
+#banner{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+#banner div{
+	width: 100%;
+	height: calc(100vh - 70px);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#banner .banner1{
+	background-image: url(../../img/sismo/banner/01.JPG);
+}
+#banner .banner2{
+	background-image: url(../../img/sismo/banner/02.JPG);
+}
+#banner .banner3{
+	background-image: url(../../img/sismo/banner/03.JPG);
+}
+#banner .banner4{
+	background-image: url(../../img/sismo/banner/04.JPG);
+}
+#banner .banner5{
+	background-image: url(../../img/sismo/banner/05.JPG);
+}
+#banner .banner6{
+	background-image: url(../../img/sismo/banner/06.JPG);
+}
+#infoBanner-container{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+#first-title{
+	font-size: 50px;
+	display: flex;
+	margin-top: 10vh;
+	border-left: 15px solid white;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+#first-title div:first-child{
+	background-color: black;
+	color: white;
+	font-family: 'Zilla Slab', serif;
+	font-weight: bold;
+}
+#first-title div:last-child{
+	background-color: white;
+	color: black;
+	padding:0 10px;
+}
+.option{
+	font-size: 24px;
+	background-color: white;
+	color: black;
+	padding-left: 20px;
+	padding-right: 5px;
+	margin: 15px 0;
+	display: table;
+	font-weight: normal;
+	font-family: 'Zilla Slab', serif;
+}
+.option a{
+	color: black !important;
+}
+.option a:hover{
+	text-decoration: none !important;
+}
+#info-banner{
+	position: absolute;
+	top: calc(20vh + 50px);
+	right: -100vw;
+    background-color: #00000087;
+    color: white;
+    padding: 45px 0px 45px 45px;
+    font-weight: normal;
+	font-size: 15px;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+#info-banner.open{
+	right: 0;
+}
