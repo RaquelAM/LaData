@@ -13,6 +13,13 @@ header{
 header .row:nth-of-type(1){
 	height: 100%;
 }
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+}
 
 /**Commun**/
 .vertical-align{
