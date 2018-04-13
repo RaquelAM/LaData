@@ -25,7 +25,16 @@ header .row:nth-of-type(1){
 .p-0{
 	padding: 0;
 }
-
+/**Margin**/
+.mt-15{
+	margin-top: 15px;
+}
+.mb-15{
+	margin-bottom: 15px;
+}
+.mt-50{
+	margin-top: 50px;
+}
 /**Header**/
 .icon-menu{
 	font-size: 40px;
@@ -161,4 +170,66 @@ footer{
 	width: 40px;
 	margin: 0 15px;
 	display: inline-block;
+}
+
+/***Sections***/
+#sub-menu{
+	width: 100%;
+	background-color: #000;
+}
+.sub-menu-opts{
+	height: 0;
+	overflow: hidden;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+.sub-menu-opts.open{
+	height: 47px;
+}
+.sub-menu-opts div{
+	display: inline-block;
+	margin: 20px 10px 0px 0;
+	background: #fff;
+	color: black;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 0 5px;
+}
+.sub-menu-opts div.active{
+	background: #dfd6d8;
+}
+#sub-menu-icon{
+	width: 100%;
+	clear: both;
+	padding: 10px;
+}
+#sub-menu-icon img{
+	width: 30px;
+	cursor: pointer;
+}
+#info{
+	padding: 30px 0;
+}
+.title{
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-size: 28px;
+	font-weight: bold;
+}
+.bkgrnd-pink{
+	background: #dfd6d8;
+}
+.image-title{
+	color: white;
+	font-size: 16px;
+	background: #999a98;
+}
+.img-info{
+	width: 100%;
+	margin: 15px 0;
+}
+.image-txt{
+	font-size: 12px;
 }
