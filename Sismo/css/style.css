@@ -8,6 +8,7 @@ header{
 	height: 70px;
 	font-weight: normal;
 	background: #fff;
+	color: black;
 }
 header .row:nth-of-type(1){
 	height: 100%;
@@ -241,4 +242,7 @@ footer{
 }
 .bkgrnd-white{
 	background: #FFFFFF;
+}
+.bkgrnd-pink2{
+	background: #d43e50;
 }
