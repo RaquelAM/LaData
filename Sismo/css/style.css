@@ -253,3 +253,28 @@ footer{
 .bkgrnd-pink2{
 	background: #d43e50;
 }
+
+#scrollContainer{
+	height: 90vh;
+	overflow: hidden;
+	position: relative;
+}
+#imgToScroll{
+	-webkit-transition: all 1.5s linear;
+    -moz-transition: all 1.5s linear;
+    -ms-transition: all 1.5s linear;
+    -o-transition: all 1.5s linear;
+    transition: all 1.5s linear;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#imgArrows{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 120px;
+}
