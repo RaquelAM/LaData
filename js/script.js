@@ -17,7 +17,7 @@ $(document).ready(function(){
 		}
 	});
 	//Animation scroll image
-	var imgH = $('#scrollContainer').height() / 2;
+	var imgH = "-"+$('#imgToScroll').height() / 2;
 	
 	var func = '';
 	var cont = 0;
@@ -29,25 +29,36 @@ $(document).ready(function(){
 		$("#imgArrows").hide();	
 	});
 
-	$('#imgArrows').mouseover(function(e){
-		if (e.clientY < imgH) {
+	$('#up').mouseover(function(e){
         	clearInterval(func);
 		    func =  setInterval(function() {
-			   cont++;
-			   contBig = cont * 10;
-			   $("#imgToScroll").css("top", contBig + "px");
-			}, 100)
-	    } else {
-        	clearInterval(func);
-	        func =  setInterval(function() {
-			   cont--;
-			   contBig = cont * 10;
-			   $("#imgToScroll").css("top", contBig + "px");
-			}, 100)
-	    }
-		
+		    	if (contBig <= 0) {
+		    		cont++;
+				   contBig = cont * 10;
+				   console.log("suma");
+				   console.log(contBig);
+				   $("#imgToScroll").css("top", contBig + "px");
+		    	}
+				   
+			}, 100);
 	});
-    $('#imgArrows').mouseout(function() {
+    $('#up').mouseout(function() {
+        clearInterval(func);
+	});
+	$('#down').mouseover(function(e){
+        	clearInterval(func);
+		    func =  setInterval(function() {
+		    	if (contBig >= imgH) {
+		    		cont--;
+				   contBig = cont * 10;
+				   console.log("resta");
+				   console.log(contBig);
+				   $("#imgToScroll").css("top", contBig + "px");
+		    	}
+				   
+			}, 100);
+	});
+    $('#down').mouseout(function() {
         clearInterval(func);
 	});
 })
