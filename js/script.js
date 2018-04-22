@@ -61,4 +61,18 @@ $(document).ready(function(){
     $('#down').mouseout(function() {
         clearInterval(func);
 	});
+	//Toggle image
+	$("#byCol").on("click", function(){
+		$(".optSocial").removeClass("activeS");
+		$(this).addClass("activeS");
+		$("#imgMun").fadeOut(1000);
+		setTimeout(function(){ $("#imgCol").fadeIn(1000); }, 1000);
+	});
+	$("#byMun").on("click", function(){
+		$(".optSocial").removeClass("activeS");
+		$(this).addClass("activeS");
+		$("#imgCol").fadeOut(1000); 
+		setTimeout(function(){ $("#imgMun").fadeIn(1000);}, 1000);
+		
+	});
 })
