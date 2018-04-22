@@ -35,8 +35,6 @@ $(document).ready(function(){
 		    	if (contBig <= 0) {
 		    		cont++;
 				   contBig = cont * 10;
-				   console.log("suma");
-				   console.log(contBig);
 				   $("#imgToScroll").css("top", contBig + "px");
 		    	}
 				   
@@ -51,8 +49,6 @@ $(document).ready(function(){
 		    	if (contBig >= imgH) {
 		    		cont--;
 				   contBig = cont * 10;
-				   console.log("resta");
-				   console.log(contBig);
 				   $("#imgToScroll").css("top", contBig + "px");
 		    	}
 				   

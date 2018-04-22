@@ -293,3 +293,6 @@ footer{
 .activeS{
 	color: #a98d30 !important;
 }
+.optSocial{
+	cursor: pointer;
+}
