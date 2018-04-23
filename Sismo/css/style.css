@@ -296,3 +296,94 @@ footer{
 .optSocial{
 	cursor: pointer;
 }
+.bkgrnd-pink3{
+	background: #d63f55;
+}
+#containerMap{
+	position: relative;
+}
+#infoMap{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 300px;
+}
+.select{
+	color: black;
+    border-radius: 10px;
+    width: 150px;
+}
+.imageCol{
+	border: 1px dotted #d63f55;
+	width: 100%;
+}
+#tipo span{
+	font-size: 18px;
+	font-weight: bold;
+}
+#tipo img{
+	display: inline-block;
+	width: 30px;
+    margin: 5px 10px 10px;
+}
+#tipo label{
+	display: inline-block;
+	font-weight: normal !important;
+}
+.lacustre{
+	background-image: url(../../img/sismo/ley/piso_lacustre.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding: 20px;
+	position: relative;
+}
+.transicion{
+	background-image: url(../../img/sismo/ley/piso_transicion.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding: 20px;
+	position: relative;
+}
+.lomas{
+	background-image: url(../../img/sismo/ley/piso_lomas.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding: 20px;
+	position: relative;
+}
+.lacustre img, .transicion img, .lomas img{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 70%;
+}
+.titlaSlider{
+	font-family: lato;
+	font-size: 24px;
+	font-weight: bold;
+}
+.titlaSlider span{
+	font-style: 22px;
+	color: #DA1549;
+	font-weight: normal;
+}
+.col1{
+	font-family: lato;
+	font-size: 18px;
+	color: #CACACA;
+}
+.col2{
+	font-family: lato;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.flex{
+	display: flex;
+}

@@ -71,4 +71,27 @@ $(document).ready(function(){
 		setTimeout(function(){ $("#imgMun").fadeIn(1000);}, 1000);
 		
 	});
-})
+	
+
+	//Delegaciones y colonias
+	$('#delSelect').change(function(){
+    	var del = $(this).val();
+    	$('#delCol').find('option').remove().end();
+    	var newArray = data.filter(function (el) {
+		  return el.del == del;
+		});
+		console.log(newArray); 
+		$.each(newArray, function( index, value ) {
+		  $("#delCol").append("<option value='"+value.image+"'>"+value.name+"</option>")
+		});           
+    });
+
+    $('#delCol').change(function(){
+    	console.log("la coloñaaaa");
+    	var col = $(this).val();
+    	$('#appendImg').find('img').remove().end();
+		$('#appendImg').prepend($('<img>',{class: 'imageCol', src:'../img/sismo/ley/colonias/'+col}))
+    });
+
+		
+});
