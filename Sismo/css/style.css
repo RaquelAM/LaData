@@ -387,3 +387,17 @@ footer{
 .flex{
 	display: flex;
 }
+#all{
+	text-align: center;
+}
+#all img{
+	height: 165px;
+	margin: 40px 25px;
+	display: inline-block;
+}
+.separadores{
+	width: 20px !important;
+}
+#delegacion.active, #suelo.active{
+	color: #DA1549;
+}
