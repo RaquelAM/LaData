@@ -1,4 +1,36 @@
 $(document).ready(function(){
+    /***HOME***/
+    $("#reciente").on("click", function(){
+        $("#reciente").addClass("active");
+        $("#archivo").removeClass("active");
+        $(".reciente").show();
+        $(".archivo").hide();
+    });
+    $("#archivo").on("click", function(){
+        $("#archivo").addClass("active");
+        $("#reciente").removeClass("active");
+        $(".reciente").hide();
+        $(".archivo").show();
+    });
+
+    $("#ham").on("click", function(){
+        $("#ham").hide();
+        $("#menu").addClass("open");
+        $("header").find(".row").addClass("open");
+        $("footer").addClass("open");
+        $("#home").addClass("open");
+    });
+    $(".containerCerrar").on("click", function(){
+        $("#ham").show();
+        $("#menu").removeClass("open");
+        $("header").find(".row").removeClass("open");
+        $("footer").removeClass("open");
+        $("#home").removeClass("open");
+    });
+
+
+
+    /***SISMO***/
 	$("#imgArrows").hide();	
 	$("#first-title").on("click", function(){
 		$("#info-banner").toggleClass("open");
