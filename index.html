@@ -6,16 +6,71 @@
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
     <title>LaData</title>
     <!--<link href="img/favicon.png" rel="shortcut icon">-->
-    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-grid.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="libs/css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/slick.css">
   </head>
   <body class="">
-
+  <header>
+    <div class="row">
+      <div class="col-lg-2 text-center ">
+        <img src="img/menu.svg" id="ham" class="">
+      </div>
+      <div class="col-lg-8 text-center">
+        <img src="img/logo home.svg" id="logoHome">
+      </div>
+      <div class="col-lg-2 text-center">
+        <img src="img/pinta.svg" id="pinta" class="">
+      </div>
+    </div>
+  </header>
+    <section id="home">
+      <div id="circle">
+        <div id="sliderHome">
+          <div style="background: blue">
+            <div class="text_white">
+              <p>19/s ¿Qué nos pasó?</p>
+            </div>
+          </div>
+          <div style="background: gray">
+            <div class="text_white">
+              <p>Lorem ipsum dolor sit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="cintainer">
+        <div class="col-lg-4 text-center">
+          ¿Quiénes somos?
+        </div>
+        <div class="col-lg-4 text-center">
+          ¿Qué hacemos?
+        </div>
+        <div class="col-lg-4 text-center">
+          Colaboraciones
+        </div>
+      </div>
+    </footer>
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/popper.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="libs/js/slick.js"></script>
+    <script type="text/javascript">
+      $('#sliderHome').slick({
+        dots: false,
+        infinite: true,
+        speed: 1300,
+        fade: true,
+        cssEase: 'linear',
+        autoplay: true,
+        autoplaySpeed: 5000,
+      });
+    </script>
   </body>
 </html>
