@@ -25,6 +25,11 @@ header .row:nth-of-type(1){
 	padding: 0;
 }
 
+/**Margin]**/
+.mt-20{
+	margin-top: 20px;
+}
+
 /**Header home**/
 #ham, #pinta{
 	width: 30px;
