@@ -1,0 +1,20 @@
+.chart {
+  margin-top: 40px;
+}
+
+text {
+  font-family: Lato;
+  font-weight: bold;
+ 
+  fill:#da1549;
+}
+    
+#d1 {
+ display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+svg {
+	background-color: black;
+}
