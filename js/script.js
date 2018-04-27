@@ -31,6 +31,9 @@ $(document).ready(function(){
 
 
     /***SISMO***/
+    $("#delegacion").addClass("active");
+    $("#suelo").removeClass("active");
+    console.log("click");
 	$("#imgArrows").hide();	
 	$("#first-title").on("click", function(){
 		$("#info-banner").toggleClass("open");

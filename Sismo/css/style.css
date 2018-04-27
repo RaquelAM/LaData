@@ -1,5 +1,5 @@
 body{
-	font-size: 14px;
+	font-size: 15px;
 	font-family: 'Lato', sans-serif;
     font-weight: lighter;
 	overflow-x: hidden;
@@ -54,7 +54,7 @@ a:hover{
     padding-bottom: 15px;
 }
 .container-logo img{
-	height: 100%;
+	height: 40px;
 }
 .txt-header{
 	padding-top: 35px;
@@ -160,6 +160,12 @@ a:hover{
 #info-banner.open{
 	right: 0;
 }
+#foto{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: white;
+}
 /***Footer**/
 footer{
 	background: #000;
@@ -194,11 +200,11 @@ footer{
 .sub-menu-opts{
 	height: 0;
 	overflow: hidden;
-    -webkit-transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -ms-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    transition: all 1s ease-out;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
 }
 .sub-menu-opts.open{
 	height: 47px;
@@ -226,6 +232,7 @@ footer{
 }
 #info{
 	padding: 30px 0;
+	font-weight: 400;
 }
 .title{
 	font-family: 'Zilla Slab Highlight', cursive;
@@ -246,6 +253,7 @@ footer{
 }
 .image-txt{
 	font-size: 12px;
+	color: #656464;
 }
 .bkgrnd-white{
 	background: #FFFFFF;
@@ -362,6 +370,7 @@ footer{
 	bottom: 0;
 	right: 0;
 	width: 70%;
+	max-width: 300px;
 }
 .titlaSlider{
 	font-family: lato;
