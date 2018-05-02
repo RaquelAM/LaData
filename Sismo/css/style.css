@@ -3,6 +3,7 @@ body{
 	font-family: 'Lato', sans-serif;
     font-weight: lighter;
 	overflow-x: hidden;
+	position: relative;
 }
 header{
 	height: 70px;
@@ -47,6 +48,7 @@ a:hover{
 /**Header**/
 .icon-menu{
 	font-size: 40px;
+	cursor: pointer;
 }
 .container-logo{
 	height: 100%;
@@ -169,7 +171,7 @@ a:hover{
 /***Footer**/
 footer{
 	background: #000;
-	padding: 20px 0; 
+	padding: 20px 0;
 	color: #fff;
 }
 .footer-logo{

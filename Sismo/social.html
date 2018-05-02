@@ -11,6 +11,7 @@
     <link href="../css/bootstrap-reboot.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/common.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="../libs/css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="../libs/css/slick.css">
     <!--Font Awsome-->
@@ -24,7 +25,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="col-md-1 col-md-offset-1 p-0 vertical-align text-center">
-            <i class="fas fa-bars icon-menu vertical-item"></i>
+            <i class="fas fa-bars icon-menu vertical-item" id="ham"></i>
           </div>
           <div class="col-md-9 container-logo">
             <a href="index.html"><img src="../img/logo_creditos_black.svg"></a>
@@ -37,6 +38,79 @@
         </div>
       </div>
     </header>
+    <div id="menu">
+      <div id="containerMenu">
+        <div class="containerCerrar">
+          <img src="../img/cerrar.svg" style="width: 25px;">
+          <div class="cerrar">
+            <span>Cerrar</span>
+          </div>
+        </div>
+        <div id="containerFind">
+          <input type="text" name="find">
+          <img src="../img/buscar.svg" style="height: 25px; margin-left: 5px;">
+        </div>
+        <div class="row ptb-20px">
+          <div class="col-6 active" id="reciente">
+            Reciente
+          </div>
+          <div class="col-6" id="archivo">
+            Archivo
+          </div>
+        </div>
+        <div class="reciente">
+          <div>
+            <a href="#">Terremotos em México, 100 años y contando</a>
+          </div>
+          <div>
+            <a href="#">La data del boxeo</a>
+          </div>
+          <div>
+            <a href="#">Y los niños, ¿quién los cuida?</a>
+          </div>
+          <div>
+            <a href="#">El CIG, el otro jugador de la contienda presi...</a>
+          </div>
+          <div>
+            <a href="#">Nuevo sistema penal, viejos vicios</a>
+          </div>
+        </div>
+        <div class="archivo" style="display: none;">
+          <span>2017</span>
+        </div>
+        <hr>
+        <div id="temas">
+          <div>
+            <b>Temas</b>
+          </div>
+          <span>cultura</span>
+          <span>política</span>
+          <span>género</span>
+          <span>desastres</span>
+          <span>economía</span>
+          <span>deportes</span>
+          <span>histórico</span>
+          <span>medio ambiente</span>
+          <span>ciencia</span>
+          <span>muerte</span>
+          <span>sociales</span>
+          <span>actualidad</span>
+          <span>sexualidad</span>
+        </div>
+        <div id="recomienda">
+          <img src="../img/corazon.svg" style="width: 25px;">
+          <div>
+            <span>#LaDataRecomienda</span>
+          </div>
+        </div>
+        <hr>
+        <div id="social">
+          <img src="../img/facebook.svg">
+          <img src="../img/instagram.svg">
+          <img src="../img/instagram.svg">
+        </div>
+      </div>
+    </div>
     <section id="sub-menu">
       <div class="col-md-10 col-md-offset-1 sub-menu-opts text-center">
         <div><a href="index.html"> Inicio</a></div>
@@ -187,7 +261,7 @@
           <div class="col-sm-6 text-center optSocial " style="color: #847b7d;font-weight: bold;" id="byMun">
             Morelos (por municipios)
           </div>
-          
+
           <br><br>
         </div>
       </div>
@@ -210,7 +284,7 @@
           Todo lo que nos pasó, da cuenta de que una vez más, medios y autoridades, quedaron rebasados por la ciudadanía.
           <br><br>
         </div>
-        
+
       </div>
 
     </section>

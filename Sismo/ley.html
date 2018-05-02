@@ -11,6 +11,7 @@
     <link href="../css/bootstrap-reboot.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/common.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="../libs/css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="../libs/css/slick.css">
     <script src="./js/d3/d3.min.js"></script>
@@ -26,7 +27,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="col-md-1 col-md-offset-1 p-0 vertical-align text-center">
-            <i class="fas fa-bars icon-menu vertical-item"></i>
+            <i class="fas fa-bars icon-menu vertical-item" id="ham"></i>
           </div>
           <div class="col-md-9 container-logo">
             <a href="index.html"><img src="../img/logo_creditos_black.svg"></a>
@@ -39,6 +40,79 @@
         </div>
       </div>
     </header>
+    <div id="menu">
+      <div id="containerMenu">
+        <div class="containerCerrar">
+          <img src="../img/cerrar.svg" style="width: 25px;">
+          <div class="cerrar">
+            <span>Cerrar</span>
+          </div>
+        </div>
+        <div id="containerFind">
+          <input type="text" name="find">
+          <img src="../img/buscar.svg" style="height: 25px; margin-left: 5px;">
+        </div>
+        <div class="row ptb-20px">
+          <div class="col-6 active" id="reciente">
+            Reciente
+          </div>
+          <div class="col-6" id="archivo">
+            Archivo
+          </div>
+        </div>
+        <div class="reciente">
+          <div>
+            <a href="#">Terremotos em México, 100 años y contando</a>
+          </div>
+          <div>
+            <a href="#">La data del boxeo</a>
+          </div>
+          <div>
+            <a href="#">Y los niños, ¿quién los cuida?</a>
+          </div>
+          <div>
+            <a href="#">El CIG, el otro jugador de la contienda presi...</a>
+          </div>
+          <div>
+            <a href="#">Nuevo sistema penal, viejos vicios</a>
+          </div>
+        </div>
+        <div class="archivo" style="display: none;">
+          <span>2017</span>
+        </div>
+        <hr>
+        <div id="temas">
+          <div>
+            <b>Temas</b>
+          </div>
+          <span>cultura</span>
+          <span>política</span>
+          <span>género</span>
+          <span>desastres</span>
+          <span>economía</span>
+          <span>deportes</span>
+          <span>histórico</span>
+          <span>medio ambiente</span>
+          <span>ciencia</span>
+          <span>muerte</span>
+          <span>sociales</span>
+          <span>actualidad</span>
+          <span>sexualidad</span>
+        </div>
+        <div id="recomienda">
+          <img src="../img/corazon.svg" style="width: 25px;">
+          <div>
+            <span>#LaDataRecomienda</span>
+          </div>
+        </div>
+        <hr>
+        <div id="social">
+          <img src="../img/facebook.svg">
+          <img src="../img/instagram.svg">
+          <img src="../img/instagram.svg">
+        </div>
+      </div>
+    </div>
     <section id="sub-menu">
       <div class="col-md-10 col-md-offset-1 sub-menu-opts text-center">
         <div><a href="index.html"> Inicio</a></div>
@@ -103,7 +177,7 @@
         <img src="../img/sismo/ley/mapa.svg" class="img-info col-md-11">
         <div id="infoMap">
           <div class="text-right">
-            <label>Delegación:</label> 
+            <label>Delegación:</label>
             <select id="delSelect" class="select">
               <option value="selec">Selecciona una opción</option>
               <option value="LVARO OBREGN">Álvaro Obregón</option>
@@ -127,13 +201,13 @@
             </select>
           </div>
           <div class="text-right">
-            <label>Colonia:</label> 
+            <label>Colonia:</label>
             <select id="delCol" class="select">
 
             </select>
           </div>
           <div id="appendImg">
-            
+
           </div>
         </div>
         <div class="col-md-12 text-right image-txt">
@@ -205,7 +279,7 @@
         <div class="col-md-11 col-md-offset-1 mb-15 mt-15 text-justify">
           Hasta 2010<span class="bkgrnd-pink3"> esta figura estaba delimitada a sólo 7 colonias de la Ciudad de México</span> y fue pensada como una forma de recaudar recursos para remodelar el Centro Histórico. Sin embargo, en 2010, nos explica Suma Urbana,<span class="bkgrnd-pink3"> Marcelo Ebrard abrió la figura para ser aplicable en toda la ciudad mediante la reforma al artículo 82 de la LGDUDF sin que se requirieran los estudios topográficos debidos.</span>
           <br><br>
-          Con Mancera la escasa transparencia fue totalmente opacada, la figura se abrió a los particulares, el Fideicomiso a donde se deposita el pago de derechos fue cerrado, las solicitudes de transparencia hechas por Suma Urbana fueron negadas o simplemente no tuvieron respuesta, relata McGregor. Esto a pesar de que la propia LGDUDF establece que “Las operaciones de transferencia autorizadas, se inscribirán en el Registro de los Planes y Programas de Desarrollo Urbano y en el Registro Público de la Propiedad y del Comercio”. 
+          Con Mancera la escasa transparencia fue totalmente opacada, la figura se abrió a los particulares, el Fideicomiso a donde se deposita el pago de derechos fue cerrado, las solicitudes de transparencia hechas por Suma Urbana fueron negadas o simplemente no tuvieron respuesta, relata McGregor. Esto a pesar de que la propia LGDUDF establece que “Las operaciones de transferencia autorizadas, se inscribirán en el Registro de los Planes y Programas de Desarrollo Urbano y en el Registro Público de la Propiedad y del Comercio”.
         </div>
         <div class="col-md-11 text-justify mb-15">
           Más allá de los beneficios económicos que generan para el sector, la necesidad de cumplir de acuerdo con la normativa es por cuestiones de seguridad pero también en apego a una planeación y reparto de recursos: <i>“las violaciones al uso de suelo en el caso de las oficinas, bodegas, etc., impactan la infraestructura de la zona en general y, en el caso de un sismo, ya que, si el edificio o casa no estaba construido para soportar el aforo de uno de estos giros, el peso va debilitando sus estructuras y en un movimiento puede desplomar. Algo similar sucedió en el caso de este sismo con las estructuras publicitarias y antenas de transmisión de ondas”</i>, puntualiza Josefina.
@@ -290,7 +364,7 @@
                   <br>
                   382 m2
                   <br>
-                  34044.9 
+                  34044.9
                   <br>
                   125
                   <br>
@@ -340,7 +414,7 @@
                   <br>
                   350 m2
                   <br>
-                  34044.9 
+                  34044.9
                   <br>
                   100
                   <br>
@@ -390,7 +464,7 @@
                   <br>
                   487 m2
                   <br>
-                  27000.1 
+                  27000.1
                   <br>
                   133333
                   <br>
@@ -440,7 +514,7 @@
                   <br>
                   536 m2
                   <br>
-                  33146.7 
+                  33146.7
                   <br>
                   75
                   <br>
@@ -490,7 +564,7 @@
                   <br>
                   312 m2
                   <br>
-                  24334.4 
+                  24334.4
                   <br>
                   50
                   <br>
@@ -540,7 +614,7 @@
                   <br>
                   654 m2
                   <br>
-                  27000.1 
+                  27000.1
                   <br>
                   666667
                   <br>
@@ -591,7 +665,7 @@
                   <br>
                   233 m2
                   <br>
-                  28825.1 
+                  28825.1
                   <br>
                   50
                   <br>
@@ -641,7 +715,7 @@
                   <br>
                   253 m2
                   <br>
-                  27000.1 
+                  27000.1
                   <br>
                   50
                   <br>
@@ -691,7 +765,7 @@
                   <br>
                   378 m2
                   <br>
-                  28825.1 
+                  28825.1
                   <br>
                   133333
                   <br>
@@ -741,7 +815,7 @@
                   <br>
                   431 m2
                   <br>
-                  23944.3 
+                  23944.3
                   <br>
                   25
                   <br>
@@ -791,7 +865,7 @@
                   <br>
                   347 m2
                   <br>
-                  27000.1 
+                  27000.1
                   <br>
                   25
                   <br>
@@ -841,7 +915,7 @@
                   <br>
                   408 m2
                   <br>
-                  27000.1 
+                  27000.1
                   <br>
                   666667
                   <br>
@@ -891,7 +965,7 @@
                   <br>
                   408 m2
                   <br>
-                  23530.4 
+                  23530.4
                   <br>
                   166667
                   <br>
@@ -941,7 +1015,7 @@
                   <br>
                   965 m2
                   <br>
-                  29128.8 
+                  29128.8
                   <br>
                   25
                   <br>
@@ -991,7 +1065,7 @@
                   <br>
                   3284 m2
                   <br>
-                  19230.1 
+                  19230.1
                   <br>
                   0
                   <br>
@@ -1041,7 +1115,7 @@
                   <br>
                   37588 m2
                   <br>
-                  18213.8 
+                  18213.8
                   <br>
                   0
                   <br>
@@ -1085,13 +1159,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   Habitacional
                   <br>
                   1147 m2
                   <br>
-                  31240.7 
+                  31240.7
                   <br>
                   0
                   <br>
@@ -1135,13 +1209,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   Habitacional
                   <br>
                   1048 m2
                   <br>
-                  22043.9 
+                  22043.9
                   <br>
                   0
                   <br>
@@ -1185,13 +1259,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   Habitacional con comercio
                   <br>
                   1165 m2
                   <br>
-                  22043.9 
+                  22043.9
                   <br>
                   150
                   <br>
@@ -1235,13 +1309,13 @@
                 <div class="col-sm-6 col2">
                   1970
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   19588 m2
                   <br>
-                  24690.3 
+                  24690.3
                   <br>
                   100
                   <br>
@@ -1285,13 +1359,13 @@
                 <div class="col-sm-6 col2">
                   1984
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Habitacional con comercio 
+                  Habitacional con comercio
                   <br>
                   864 m2
                   <br>
-                  19230.1 
+                  19230.1
                   <br>
                   100
                   <br>
@@ -1335,13 +1409,13 @@
                 <div class="col-sm-6 col2">
                   2001
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Habitacional con comercio 
+                  Habitacional con comercio
                   <br>
                   215 m2
                   <br>
-                  12816.9 
+                  12816.9
                   <br>
                   50
                   <br>
@@ -1385,13 +1459,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Habitacional con comercio 
+                  Habitacional con comercio
                   <br>
                   215 m2
                   <br>
-                  29903.5 
+                  29903.5
                   <br>
                   0
                   <br>
@@ -1435,13 +1509,13 @@
                 <div class="col-sm-6 col2">
                   1977
                   <br>
-                  Habitacional con comercio 
+                  Habitacional con comercio
                   <br>
                   Industrial
                   <br>
                   215 m2
                   <br>
-                  28905.3 
+                  28905.3
                   <br>
                   25
                   <br>
@@ -1485,13 +1559,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional con oficinas 
+                  Habitacional con oficinas
                   <br>
                   Mixto
                   <br>
                   224 m2
                   <br>
-                  32033.8 
+                  32033.8
                   <br>
                   0
                   <br>
@@ -1535,13 +1609,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional con oficinas 
+                  Habitacional con oficinas
                   <br>
                   Mixto
                   <br>
                   1673 m2
                   <br>
-                  19955.7 
+                  19955.7
                   <br>
                   0
                   <br>
@@ -1585,13 +1659,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional con oficinas 
+                  Habitacional con oficinas
                   <br>
                   Mixto
                   <br>
                   1673 m2
                   <br>
-                  19955.7 
+                  19955.7
                   <br>
                   0
                   <br>
@@ -1641,7 +1715,7 @@
                   <br>
                   418 m2
                   <br>
-                  13456. 
+                  13456.
                   <br>
                   0
                   <br>
@@ -1691,7 +1765,7 @@
                   <br>
                   183 m2
                   <br>
-                  22350.3 
+                  22350.3
                   <br>
                   0
                   <br>
@@ -1741,7 +1815,7 @@
                   <br>
                   547 m2
                   <br>
-                  13456. 
+                  13456.
                   <br>
                   0
                   <br>
@@ -1791,7 +1865,7 @@
                   <br>
                   619 m2
                   <br>
-                  35826.6 
+                  35826.6
                   <br>
                   140
                   <br>
@@ -1841,7 +1915,7 @@
                   <br>
                   352 m2
                   <br>
-                  32033.8 
+                  32033.8
                   <br>
                   75
                   <br>
@@ -1891,7 +1965,7 @@
                   <br>
                   509 m2
                   <br>
-                  32033.8 
+                  32033.8
                   <br>
                   0
                   <br>
@@ -1941,7 +2015,7 @@
                   <br>
                   772 m2
                   <br>
-                  39601. 
+                  39601.
                   <br>
                   0
                   <br>
@@ -1991,7 +2065,7 @@
                   <br>
                   331 m2
                   <br>
-                  32033.8 
+                  32033.8
                   <br>
                   0
                   <br>
@@ -2041,7 +2115,7 @@
                   <br>
                   127 m2
                   <br>
-                  32033.8 
+                  32033.8
                   <br>
                   0
                   <br>
@@ -2085,13 +2159,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   Habitacional con comercio
                   <br>
                   562 m2
                   <br>
-                  39601. 
+                  39601.
                   <br>
                   0
                   <br>
@@ -2135,13 +2209,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   298 m2
                   <br>
-                  39601. 
+                  39601.
                   <br>
                   0
                   <br>
@@ -2185,13 +2259,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   355 m2
                   <br>
-                  39601. 
+                  39601.
                   <br>
                   0
                   <br>
@@ -2235,13 +2309,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   204 m2
                   <br>
-                  39510.6 
+                  39510.6
                   <br>
                   0
                   <br>
@@ -2285,13 +2359,13 @@
                 <div class="col-sm-6 col2">
                   1980
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   695 m2
                   <br>
-                  20424.8 
+                  20424.8
                   <br>
                   166667
                   <br>
@@ -2335,13 +2409,13 @@
                 <div class="col-sm-6 col2">
                   1980
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Equipamiento 
+                  Equipamiento
                   <br>
                   1001 m2
                   <br>
-                  24942.5 
+                  24942.5
                   <br>
                   333333
                   <br>
@@ -2385,13 +2459,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Equipamiento 
+                  Equipamiento
                   <br>
-                  Equipamiento 
+                  Equipamiento
                   <br>
                   98281 m2
                   <br>
-                  12318.8 
+                  12318.8
                   <br>
                   333333
                   <br>
@@ -2435,13 +2509,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
-                  Habitacional 
+                  Habitacional
                   <br>
                   515 m2
                   <br>
-                  13682.4 
+                  13682.4
                   <br>
                   150
                   <br>
@@ -2485,13 +2559,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacionl con comercio 
+                  Habitacionl con comercio
                   <br>
-                  Comercial 
+                  Comercial
                   <br>
                   216 m2
                   <br>
-                  7211.53 
+                  7211.53
                   <br>
                   0
                   <br>
@@ -2535,13 +2609,13 @@
                 <div class="col-sm-6 col2">
                   --
                   <br>
-                  Habitacionl con comercio 
+                  Habitacionl con comercio
                   <br>
-                  Equipamiento 
+                  Equipamiento
                   <br>
                   10014 m2
                   <br>
-                  7211.53 
+                  7211.53
                   <br>
                   0
                   <br>
@@ -2562,13 +2636,13 @@
           <img src="../img/sismo/ley/piso_lomas.svg">
           <label>LOMAS</label>
         </div>
-        
-        
+
+
       </div>
       <div class="col-md-8 col-md-offset-2 mt-15 mb-15" id="d1">
-        
+
       </div>
-      
+
       </section>
 
     <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
