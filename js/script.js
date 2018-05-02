@@ -31,8 +31,8 @@ $(document).ready(function(){
 
 
     /***SISMO***/
-    
-	$("#imgArrows").hide();	
+
+	$("#imgArrows").hide();
 	$("#first-title").on("click", function(){
 		$("#info-banner").toggleClass("open");
 	});
@@ -46,20 +46,20 @@ $(document).ready(function(){
 		if ($(document).scrollTop() >= 70) {
 			$("#sub-menu").addClass("fixed");
 		}else{
-			$("#sub-menu").removeClass("fixed");	
+			$("#sub-menu").removeClass("fixed");
 		}
 	});
 	//Animation scroll image
 	var imgH = "-"+$('#imgToScroll').height() / 2;
-	
+
 	var func = '';
 	var cont = 0;
 	var contBig = 0;
 	$('#scrollContainer').mouseover(function(){
-		$("#imgArrows").show();	
+		$("#imgArrows").show();
 	});
 	$('#scrollContainer').mouseout(function() {
-		$("#imgArrows").hide();	
+		$("#imgArrows").hide();
 	});
 
 	$('#up').mouseover(function(e){
@@ -70,7 +70,7 @@ $(document).ready(function(){
 				   contBig = cont * 10;
 				   $("#imgToScroll").css("top", contBig + "px");
 		    	}
-				   
+
 			}, 100);
 	});
     $('#up').mouseout(function() {
@@ -84,7 +84,7 @@ $(document).ready(function(){
 				   contBig = cont * 10;
 				   $("#imgToScroll").css("top", contBig + "px");
 		    	}
-				   
+
 			}, 100);
 	});
     $('#down').mouseout(function() {
@@ -100,11 +100,11 @@ $(document).ready(function(){
 	$("#byMun").on("click", function(){
 		$(".optSocial").removeClass("activeS");
 		$(this).addClass("activeS");
-		$("#imgCol").fadeOut(1000); 
+		$("#imgCol").fadeOut(1000);
 		setTimeout(function(){ $("#imgMun").fadeIn(1000);}, 1000);
-		
+
 	});
-	
+
 
 	//Delegaciones y colonias
 	$('#delSelect').change(function(){
@@ -113,10 +113,12 @@ $(document).ready(function(){
     	var newArray = data.filter(function (el) {
 		  return el.del == del;
 		});
-		console.log(newArray); 
-		$.each(newArray, function( index, value ) {
+		console.log(newArray);
+    var sortArray = newArray.sort(compare);
+    console.log(sortArray);
+		$.each(sortArray, function( index, value ) {
 		  $("#delCol").append("<option value='"+value.image+"'>"+value.name+"</option>")
-		});           
+		});
     });
 
     $('#delCol').change(function(){
@@ -126,5 +128,13 @@ $(document).ready(function(){
 		$('#appendImg').prepend($('<img>',{class: 'imageCol', src:'../img/sismo/ley/colonias/'+col}))
     });
 
-		
+
 });
+//Sort array
+function compare(a,b) {
+  if (a.name < b.name)
+    return -1;
+  if (a.name > b.name)
+    return 1;
+  return 0;
+}
