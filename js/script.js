@@ -27,7 +27,13 @@ $(document).ready(function(){
         $("footer").removeClass("open");
         $("#home").removeClass("open");
     });
-
+ /**La Data Pinta**/
+ $(".circlePinta").mouseover(function() {
+    $(this).find(".title").fadeIn();
+  })
+  .mouseout(function() {
+    $(this).find(".title").fadeOut();
+  });
 
 
     /***SISMO***/
