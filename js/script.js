@@ -34,6 +34,9 @@ $(document).ready(function(){
   .mouseout(function() {
     $(this).find(".title").fadeOut();
   });
+  $("#cerrarPinta").on("click", function(){
+    window.history.back();
+  });
 
 
     /***SISMO***/
