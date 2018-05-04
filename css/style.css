@@ -286,6 +286,25 @@ header.home .row, footer.home, #home{
 .uni{
 	height: 45px !important;
 }
+/**Recomienda**/
+#recomiendaSec{
+	height: calc(100vh - 160px);
+	min-height: 400px;
+}
+.imgRec{
+	width: 100%;
+	height: 200px;
+	background: #cec9c9;
+}
+.textRec{
+	background: #323232;
+	color: white;
+	padding: 10px;
+	font-size: 10px;
+}
+.textRec span{
+	font-size: 12px;
+}
 
 /**Footer**/
 footer, header .row, #home{
