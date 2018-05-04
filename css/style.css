@@ -264,6 +264,10 @@ header.home .row, footer.home, #home{
 }
 
 /**Colaboraciones**/
+#colaboraciones{
+	height: calc(100vh - 160px);
+	min-height: 400px;
+}
 .imgCol{
 	width: 150px;
   display: inline-block;
