@@ -37,7 +37,45 @@ $(document).ready(function(){
   $("#cerrarPinta").on("click", function(){
     window.history.back();
   });
+/**Quienes somos**/
+  $("#myRange").val(1);
+  $("#myRange").on("change", function(){
+    var value = $(this).val();
+    console.log(value);
+    if (value == 1) {
+      $(".bios").hide();
+      $(".dany").show();
+    }else if (value > 13 && value < 16) {
+      $(".bios").hide();
+      $(".emma").show();
+    }else if (value > 27 && value < 31) {
+      $(".bios").hide();
+      $(".gis").show();
+    }else if (value > 42 && value < 46) {
+      $(".bios").hide();
+      $(".irving").show();
+    }else if (value > 56 && value < 60) {
+      $(".bios").hide();
+      $(".erandi").show();
+    }else if (value > 70 && value < 74) {
+      $(".bios").hide();
+      $(".oliver").show();
+    }else if (value > 84 && value < 88) {
+      $(".bios").hide();
+      $(".chio").show();
+    }else if (value == 100) {
+      $(".bios").hide();
+      $(".wil").show();
+    }
+  });
 
+  $(".person").on("click", function(){
+    var bio = $(this).data("bio");
+    var value = $(this).data("value");
+    $(".bios").hide();
+    $(bio).show();
+    $("#myRange").val(value);
+  })
 
     /***SISMO***/
 

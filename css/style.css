@@ -18,6 +18,33 @@ a, a:hover{
 	color: black;
 	text-decoration: none;
 }
+/**Header sections**/
+header.sec{
+	height: 70px;
+	font-weight: normal;
+	background: #fff;
+	color: black;
+}
+.icon-menu{
+	font-size: 40px;
+	cursor: pointer;
+}
+.container-logo{
+	height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container-logo img{
+	height: 40px;
+}
+.txt-header{
+	padding-top: 35px;
+}
+#pinta.sec{
+	position: relative;
+	display: inline;
+	margin-left: 10px;
+}
 
 
 /**Commun**/
@@ -116,6 +143,13 @@ header.home .row, footer.home, #home{
 	margin-left: 0;
 }
 
+/**Sections**/
+.titleSection{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
 /**Pinta**/
 #cerrarPinta{
 	width: 30px;
@@ -132,6 +166,7 @@ header.home .row, footer.home, #home{
 }
 #pintaSection{
 	height: calc(100vh - 235px);
+	min-height: 400px;
 	overflow-x: scroll;
 	overflow-y: hidden;
 }
@@ -179,6 +214,55 @@ header.home .row, footer.home, #home{
   line-height: 40px;
 }
 
+/**Quienes somos**/
+#quienesSomosSection{
+	height: calc(100vh - 160px);
+	min-height: 400px;
+}
+.selectPerson{
+	width: 100%;
+}
+.selectPerson img{
+	display: inline-block;
+	width: calc(100%/8 - 5%);
+	margin: 20px 2%;
+	cursor: pointer;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    outline: none;
+		padding: 0 6.5%;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.bios{
+	margin-top: 40px;
+	font-weight: 400;
+}
+.bios span{
+	font-weight: 600;
+	font-size: 19px;
+}
+.bios img{
+	width: 80%;
+	margin: 0 20%;
+}
+
 
 /**Footer**/
 footer, header .row, #home{
@@ -187,4 +271,7 @@ footer, header .row, #home{
     -ms-transition: all 1.5s ease-out;
     -o-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
+}
+.activeSec{
+	color: #cbcbcb;
 }
