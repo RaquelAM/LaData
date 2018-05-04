@@ -263,6 +263,25 @@ header.home .row, footer.home, #home{
 	margin: 0 20%;
 }
 
+/**Colaboraciones**/
+.imgCol{
+	width: 150px;
+  display: inline-block;
+	margin: 30px 20px;
+}
+.hrCol{
+	border: 1px dotted gray;
+	margin-bottom: 50px;
+}
+.col{
+	display: inline-block;
+	height: 30px;
+	width: auto;
+	margin: 20px;
+}
+.uni{
+	height: 45px !important;
+}
 
 /**Footer**/
 footer, header .row, #home{
