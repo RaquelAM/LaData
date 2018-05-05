@@ -305,6 +305,36 @@ header.home .row, footer.home, #home{
 .textRec span{
 	font-size: 12px;
 }
+/**Quienes somos**/
+#año2017{
+	
+}
+.arch{
+	position: relative;
+	height: 17vw;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-top: 30px;
+	border: 1px solid gray;
+}
+.titleArch{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: black;
+	color: white;
+	padding: 5px 10px;
+}
+.mesArch{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: white;
+	color: black;
+	padding: 5px 10px;
+}
+
 
 /**Footer**/
 footer, header .row, #home{
