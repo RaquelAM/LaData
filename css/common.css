@@ -54,6 +54,9 @@
 #reciente, #archivo{
 	cursor: pointer;
 }
+.archivo a{
+	color: white !important;
+}
 #reciente.active, #archivo.active{
 	font-weight: bold;
 }
