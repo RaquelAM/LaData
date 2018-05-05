@@ -291,6 +291,9 @@ header.home .row, footer.home, #home{
 	height: calc(100vh - 160px);
 	min-height: 400px;
 }
+#recomienda span{
+	color: white !important;
+}
 .imgRec{
 	width: 100%;
 	height: 200px;
@@ -307,7 +310,7 @@ header.home .row, footer.home, #home{
 }
 /**Quienes somos**/
 #año2017{
-	
+
 }
 .arch{
 	position: relative;
@@ -344,6 +347,6 @@ footer, header .row, #home{
     -o-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
 }
-.activeSec{
+.activeSec a{
 	color: #cbcbcb;
 }
