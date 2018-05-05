@@ -21,6 +21,9 @@
   #colaboraciones, #año2017, #quienesSomosSection, #recomiendaSec{
     height: auto;
   }
+  header.sec{
+    height: auto;
+  }
   /*Home*/
   #ham, #pinta{
     position: relative;
