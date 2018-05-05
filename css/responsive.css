@@ -52,4 +52,8 @@
     right: 40px;
     width: 40%;
   }
+  /**Archivo**/
+  .arch{
+    height: 55vw;
+  }
 }
