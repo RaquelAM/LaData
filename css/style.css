@@ -18,6 +18,12 @@ a, a:hover{
 	color: black;
 	text-decoration: none;
 }
+.web{
+	display: block;
+}
+.movil{
+	display: none;
+}
 /**Header sections**/
 header.sec{
 	height: 70px;
