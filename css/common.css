@@ -53,15 +53,20 @@
 }
 #reciente, #archivo{
 	cursor: pointer;
+	font-weight: 600;
+	color: #4D4D4D;
 }
 .archivo a{
-	color: white !important;
+	color:  #4D4D4D;
+	font-weight: 600;
 }
 #reciente.active, #archivo.active{
-	font-weight: bold;
+	color: white;
 }
 .reciente div{
 	margin: 10px 0;
+	border-bottom: 1px dotted #393838;
+	height: 25px;
 }
 .reciente div a{
 	color: white;

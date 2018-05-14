@@ -1,0 +1,230 @@
+[
+    {
+        "Key": "CDMX",
+        "region": "ISSSTE",
+        "subregion": "CENTRO MÉDICO NACIONAL 20 DE NOVIEMBRE",
+        "value": 26
+    },
+    {
+        "Key": "Morelos",
+        "region": "SESA MORELOS",
+        "subregion": "HNM/ PARRES",
+        "value": 1
+    },
+    {
+        "Key": "CDMX",
+        "region": "PEMEX",
+        "subregion": "HOSPITAL CENTRAL NORTE",
+        "value": 3
+    },
+    {
+        "Key": "CDMX",
+        "region": "PEMEX",
+        "subregion": "HOSPITAL CENTRAL SUR",
+        "value": 1
+    },
+    {
+        "Key": "Puebla",
+        "region": "IMSS",
+        "subregion": "HOSPITAL DE ESPECIALIDADES 01",
+        "value": 1
+    },
+    {
+        "Key": "Puebla",
+        "region": "SESA PUEBLA",
+        "subregion": "HOSPITAL DEL NIÑO POBLANO",
+        "value": 8
+    },
+    {
+        "Key": "CDMX",
+        "region": "IMSS",
+        "subregion": "HOSPITAL DE TRAUMATOLOGIA 01",
+        "value": 67
+    },
+    {
+        "Key": "Puebla",
+        "region": "SESA PUEBLA",
+        "subregion": "HOSPITAL DE TRAUMATOLOGíA Y ORTOPEDIA \"DR. Y. GRAL. RAFAEL MORENO VALLE\"",
+        "value": 4
+    },
+    {
+        "Key": "México",
+        "region": "IMSS",
+        "subregion": "HOSPITAL DE TRAUMA Y ORTOPEDIA 01",
+        "value": 8
+    },
+    {
+        "Key": "Puebla",
+        "region": "SESA PUEBLA",
+        "subregion": "HOSPITAL GENERAL DE CHOLULA",
+        "value": 12
+    },
+    {
+        "Key": "Morelos",
+        "region": "SESA MORELOS",
+        "subregion": "HOSPITAL GENERAL DE CUAUTLA",
+        "value": 7
+    },
+    {
+        "Key": "Morelos",
+        "region": "SESA MORELOS",
+        "subregion": "HOSPITAL GENERAL DE JOJUTLA",
+        "value": 2
+    },
+    {
+        "Key": "Puebla",
+        "region": "SESA PUEBLA",
+        "subregion": "HOSPITAL GENERAL DE TEHUACÁN",
+        "value": 1
+    },
+    {
+        "Key": "Morelos",
+        "region": "SESA MORELOS",
+        "subregion": "HOSPITAL GENERAL DE TEMIXCO",
+        "value": 2
+    },
+    {
+        "Key": "Morelos",
+        "region": "SESA MORELOS",
+        "subregion": "HOSPITAL GENERAL DE TETECALA",
+        "value": 7
+    },
+    {
+        "Key": "Puebla",
+        "region": "SESA PUEBLA",
+        "subregion": "HOSPITAL GENERAL DE TEZIUTLÁN",
+        "value": 1
+    },
+    {
+        "Key": "CDMX",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL DE ZONA 01",
+        "value": 1
+    },
+    {
+        "Key": "Puebla",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL DE ZONA 05",
+        "value": 2
+    },
+    {
+        "Key": "CDMX",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL DE ZONA 24",
+        "value": 1
+    },
+    {
+        "Key": "CDMX",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL DE ZONA 47",
+        "value": 1
+    },
+    {
+        "Key": "México",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL DE ZONA 98",
+        "value": 2
+    },
+    {
+        "Key": "Puebla",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL DE ZONA C/MF 05",
+        "value": 2
+    },
+    {
+        "Key": "CDMX",
+        "region": "SS FEDERAL",
+        "subregion": "HOSPITAL GENERAL DR. MANUEL GEA GONZÁLEZ",
+        "value": 5
+    },
+    {
+        "Key": "CDMX",
+        "region": "SEMAR",
+        "subregion": "HOSPITAL GENERAL NAVAL DE ALTA ESPECIALIDAD",
+        "value": 11
+    },
+    {
+        "Key": "CDMX",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL REGIONAL 02",
+        "value": 64
+    },
+    {
+        "Key": "México",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL REGIONAL 200",
+        "value": 7
+    },
+    {
+        "Key": "México",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL REGIONAL 251",
+        "value": 1
+    },
+    {
+        "Key": "Morelos",
+        "region": "IMSS",
+        "subregion": "HOSPITAL GENERAL REGIONAL C/MF 01",
+        "value": 5
+    },
+    {
+        "Key": "Puebla",
+        "region": "SESA PUEBLA",
+        "subregion": "HOSPITAL GENERAL SUR",
+        "value": 4
+    },
+    {
+        "Key": "CDMX",
+        "region": "ISSSTE",
+        "subregion": "HOSPITAL GENERAL TACUBA",
+        "value": 1
+    },
+    {
+        "Key": "Puebla",
+        "region": "SESA PUEBLA",
+        "subregion": "HOSPITAL GENERAL ZONA NORTE \"BICENTENARIO DE LA INDEPENDENCIA\"",
+        "value": 6
+    },
+    {
+        "Key": "CDMX",
+        "region": "SS FEDERAL",
+        "subregion": "HOSPITAL INFANTIL DE MÉXICO FEDERICO GÓMEZ",
+        "value": 1
+    },
+    {
+        "Key": "CDMX",
+        "region": "SS FEDERAL",
+        "subregion": "HOSPITAL PSIQUIÁTRICO FRAY BERNARDINO ÁLVAREZ",
+        "value": 6
+    },
+    {
+        "Key": "CDMX",
+        "region": "ISSSTE",
+        "subregion": "HOSPITAL REGIONAL 1° DE OCTUBRE",
+        "value": 2
+    },
+    {
+        "Key": "México",
+        "region": "SS FEDERAL",
+        "subregion": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE IXTAPALUCA",
+        "value": 1
+    },
+    {
+        "Key": "CDMX",
+        "region": "ISSSTE",
+        "subregion": "HOSPITAL REGIONAL GENERAL IGNACIO ZARAGOZA",
+        "value": 8
+    },
+    {
+        "Key": "CDMX",
+        "region": "ISSSTE",
+        "subregion": "HOSPITAL REGIONAL LIC. ADOLFO LÓPEZ MATEOS",
+        "value": 8
+    },
+    {
+        "Key": "CDMX",
+        "region": "SS FEDERAL",
+        "subregion": "INSTITUTO NACIONAL DE REHABILITACIÓN",
+        "value": 18
+    }
+]

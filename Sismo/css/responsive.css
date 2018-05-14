@@ -1,0 +1,54 @@
+@media screen and (max-width: 500px) {
+  .web{
+  	display: none;
+  }
+  .movil{
+  	display: block;
+  }
+  header{
+    height: 95px;
+  }
+  .sub-menu-opts div{
+    margin: 15px 10px 0px 0;
+  }
+  .sub-menu-opts.open{
+    height: 170px;
+  }
+  .headerSec img {
+      margin-top: 0 !important;
+  }
+  .imgHM {
+      height: 40px;
+  }
+  header .movil {
+    padding: 20px;
+  }
+  header .movil span{
+    font-size: 12px;
+  }
+  #first-title{
+    font-size: 35px;
+    margin-top: 7vh;
+  }
+  .option{
+    font-size: 20px;
+  }
+  #info-banner{
+    top: calc(5vh + 50px);
+    padding: 20px;
+  }
+  .option{
+    opacity: 1;
+    -webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+  }
+  .option.hideOP{
+    opacity: 0;
+  }
+  #banner-container{
+    min-height: 715px;
+  }
+}

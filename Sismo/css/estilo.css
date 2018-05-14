@@ -5,10 +5,10 @@
 text {
   font-family: Lato;
   font-weight: bold;
- 
+
   fill:#da1549;
 }
-    
+
 #d1 {
  display: block;
   margin-top: 40px;
@@ -16,4 +16,8 @@ text {
 
 svg {
 	background-color: black;
+}
+
+rect {
+  fill: none;
 }

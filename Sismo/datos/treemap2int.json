@@ -1,0 +1,232 @@
+{
+    "name": "hospitalizados",
+    "children": [
+        {
+            "name": "CDMX",
+            "children": [
+                {
+                    "name": "ISSSTE",
+                    "children": [
+                        {
+                            "name": "CENTRO MÉDICO NACIONAL 20 DE NOVIEMBRE",
+                            "size": 26
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL TACUBA",
+                            "size": 1
+                        },
+                        {
+                            "name": "HOSPITAL REGIONAL 1° DE OCTUBRE",
+                            "size": 2
+                        },
+                        {
+                            "name": "HOSPITAL REGIONAL GENERAL IGNACIO ZARAGOZA",
+                            "size": 8
+                        },
+                        {
+                            "name": "HOSPITAL REGIONAL LIC. ADOLFO LÓPEZ MATEOS",
+                            "size": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "PEMEX",
+                    "children": [
+                        {
+                            "name": "HOSPITAL CENTRAL NORTE",
+                            "size": 3
+                        },
+                        {
+                            "name": "HOSPITAL CENTRAL SUR",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "IMSS",
+                    "children": [
+                        {
+                            "name": "HOSPITAL DE TRAUMATOLOGIA 01",
+                            "size": 67
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE ZONA 01",
+                            "size": 1
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE ZONA 24",
+                            "size": 1
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE ZONA 47",
+                            "size": 1
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL REGIONAL 02",
+                            "size": 64
+                        }
+                    ]
+                },
+                {
+                    "name": "SS FEDERAL",
+                    "children": [
+                        {
+                            "name": "HOSPITAL GENERAL DR. MANUEL GEA GONZÁLEZ",
+                            "size": 5
+                        },
+                        {
+                            "name": "HOSPITAL INFANTIL DE MÉXICO FEDERICO GÓMEZ",
+                            "size": 1
+                        },
+                        {
+                            "name": "HOSPITAL PSIQUIÁTRICO FRAY BERNARDINO ÁLVAREZ",
+                            "size": 6
+                        },
+                        {
+                            "name": "INSTITUTO NACIONAL DE REHABILITACIÓN",
+                            "size": 18
+                        }
+                    ]
+                },
+                {
+                    "name": "SEMAR",
+                    "children": [
+                        {
+                            "name": "HOSPITAL GENERAL NAVAL DE ALTA ESPECIALIDAD",
+                            "size": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Morelos",
+            "children": [
+                {
+                    "name": "SESA MORELOS",
+                    "children": [
+                        {
+                            "name": "HNM/ PARRES",
+                            "size": 1
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE CUAUTLA",
+                            "size": 7
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE JOJUTLA",
+                            "size": 2
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE TEMIXCO",
+                            "size": 2
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE TETECALA",
+                            "size": 7
+                        }
+                    ]
+                },
+                {
+                    "name": "IMSS",
+                    "children": [
+                        {
+                            "name": "HOSPITAL GENERAL REGIONAL C/MF 01",
+                            "size": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Puebla",
+            "children": [
+                {
+                    "name": "IMSS",
+                    "children": [
+                        {
+                            "name": "HOSPITAL DE ESPECIALIDADES 01",
+                            "size": 1
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE ZONA 05",
+                            "size": 2
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE ZONA C/MF 05",
+                            "size": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "SESA PUEBLA",
+                    "children": [
+                        {
+                            "name": "HOSPITAL DEL NIÑO POBLANO",
+                            "size": 8
+                        },
+                        {
+                            "name": "HOSPITAL DE TRAUMATOLOGíA Y ORTOPEDIA \"DR. Y. GRAL. RAFAEL MORENO VALLE\"",
+                            "size": 4
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE CHOLULA",
+                            "size": 12
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE TEHUACÁN",
+                            "size": 1
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE TEZIUTLÁN",
+                            "size": 1
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL SUR",
+                            "size": 4
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL ZONA NORTE \"BICENTENARIO DE LA INDEPENDENCIA\"",
+                            "size": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "México",
+            "children": [
+                {
+                    "name": "IMSS",
+                    "children": [
+                        {
+                            "name": "HOSPITAL DE TRAUMA Y ORTOPEDIA 01",
+                            "size": 8
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL DE ZONA 98",
+                            "size": 2
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL REGIONAL 200",
+                            "size": 7
+                        },
+                        {
+                            "name": "HOSPITAL GENERAL REGIONAL 251",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SS FEDERAL",
+                    "children": [
+                        {
+                            "name": "HOSPITAL REGIONAL DE ALTA ESPECIALIDAD DE IXTAPALUCA",
+                            "size": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

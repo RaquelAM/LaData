@@ -14,26 +14,52 @@
     <link href="../css/common.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="../libs/css/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="../libs/css/slick.css">
+    <script src="./js/d3/d3.min.js"></script>
+    <link rel="stylesheet" href="./css/estilo.css" media="screen"/>
     <!--Font Awsome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+    <style media="screen">
+      text {
+        fill:white !important;
+        font-size: 12px !important;
+        font-weight: normal;
+      }
+    </style>
   </head>
-  <body id="sismo">
+  <body id="sismo" style="background: #F1F1F1;">
     <header>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="col-md-1 col-md-offset-1 p-0 vertical-align text-center">
-            <i class="fas fa-bars icon-menu vertical-item" id="ham"></i>
+      <div class="web">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="col-md-1 col-md-offset-1 p-0 vertical-align text-center">
+              <img src="../img/menu.svg" id="ham" class="">
+            </div>
+            <div class="col-md-9 container-logo">
+              <img src="../img/logo_creditos_black.svg">
+            </div>
           </div>
-          <div class="col-md-9 container-logo">
-            <a href="index.html"><img src="../img/logo_creditos_black.svg"></a>
+          <div class="col-md-6">
+            <div class="col-md-11 text-right txt-header">
+              CONTAMOS HISTORIAS CON DATOS
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="col-md-11 text-right txt-header">
-            CONTAMOS HISTORIAS CON DATOS
+      </div>
+      <div class="movil">
+        <div class="row headerSec">
+          <div class="col-2">
+            <img src="../img/menu.svg" onClick="$('#ham').click()" class="sec">
+          </div>
+          <div class="col-8 text-center">
+            <a href="index.html"><img src="../img/logo_creditos_black.svg" class="imgHM"></a>
+            <br>
+            <span> CONTAMOS HISTORIAS CON DATOS</span>
+          </div>
+          <div class="col-2 text-center">
+            <a href="../../dataPinta.html"><img src="../img/pinta.svg" id="pinta" class="sec"></a>
           </div>
         </div>
       </div>
@@ -60,7 +86,7 @@
         </div>
         <div class="reciente">
           <div>
-            <a href="#">Terremotos em México, 100 años y contando</a>
+            <a href="#">Terremotos en México, 100 años y contando</a>
           </div>
           <div>
             <a href="#">La data del boxeo</a>
@@ -107,14 +133,14 @@
         <div id="social">
           <img src="../img/facebook.svg">
           <img src="../img/instagram.svg">
-          <img src="../img/instagram.svg">
+          <img src="../img/twitter.svg">
         </div>
       </div>
     </div>
     <section id="sub-menu">
       <div class="col-md-10 col-md-offset-1 sub-menu-opts text-center">
         <div><a href="index.html"> Inicio</a></div>
-        <div class="active"><a href="#"> Anatomía de los desastres</a></div>
+        <div class="bkgrnd-pink"><a href="#"> Anatomía de los desastres</a></div>
         <div><a href="financiero.html"> Desastre financiero</a></div>
         <div><a href="ley.html"> Grietas en la ley inmobiliaria</a></div>
         <div><a href="social.html"> Revuelo social</a></div>
@@ -229,7 +255,7 @@
           Consulta 3 de octubre de 2017
         </div>
         <span class="image-title"> Distribución de hospitalizados en ciudades afectadas</span>
-        <img src="../img/sismo/anatomia/distribucion.svg" class="img-info">
+        <div class="col-sm-12" id="d1"></div>
         <div class="col-md-12 text-right image-txt">
           Fuente de los datos: locatel.cdmx.gob.mx, consulta 3 de octubre de 2017
         </div>
@@ -306,7 +332,7 @@
         <div class="col-md-11 col-md-offset-1 mb-15 mt-15 text-justify">
           En la Ciudad de México el secretario de Desarrollo Económico (SEDECO), Salomón Chertorivski, informó que <span class="bkgrnd-pink">a raíz del 19S los negocios con afectaciones ascienden a 1054,</span> de los cuales 329 son mercados, 14 de éstos fueron afectados, el único que será demolido se ubica en San Gregorio, Xochimilco.
           <br><br>
-          En el <u>Primer Informe sobre la Afectación de la Actividad Económica</u> después del Sismo del 19 de Septiembre, el jefe de gobierno Miguel Ángel Mancera, informó que la actividad afectada dentro de los polígonos de edificios colapsados asciende a 930 comercios que dan empleo a 7,798 empleados Y que dentro cinco días posteriores al terremoto se estima que las pérdidas comerciales sumaron 34, 568, 164 millones de pesos (http://bit.ly/2yewuyP)
+          En el <a href="http://bit.ly/2yewuyP" target="_blank"> <u>Primer Informe sobre la Afectación de la Actividad Económica</u></a> después del Sismo del 19 de Septiembre, el jefe de gobierno Miguel Ángel Mancera, informó que la actividad afectada dentro de los polígonos de edificios colapsados asciende a 930 comercios que dan empleo a 7,798 empleados Y que dentro cinco días posteriores al terremoto se estima que las pérdidas comerciales sumaron 34, 568, 164 millones de pesos (http://bit.ly/2yewuyP)
         </div>
       </div>
       <div class="col-md-6 col-md-offset-3">
@@ -331,6 +357,8 @@
     <script type="text/javascript" src="../js/popper.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
     <script type="text/javascript" src="../libs/js/slick.js"></script>
+    <script src="./js/d3/d3.js"></script>
+    <script src="./js/scriptaAnatomia.js"></script>
     <script type="text/javascript">
       $('#banner').slick({
         dots: false,

@@ -85,10 +85,10 @@ header.sec{
 
 
 /**Header home**/
-#ham, #pinta{
+#ham, .pintaHome{
 	width: 30px;
-	margin: auto;
-	position: absolute;
+	margin: auto !important;
+	position: absolute !important;
 	top: 0;
 	bottom: 0;
 	right: 0;
@@ -96,9 +96,15 @@ header.sec{
 	display: block;
 	cursor: pointer;
 }
+#pinta{
+	width: 30px;
+	display: inline-block;
+	margin: -20px 0 0 10px;
+}
 #logoHome{
 	height: calc( 100% - 60px);
 	margin: 40px auto 20px;
+	max-height: 90px;
 }
 #home{
 	width: 100%;
@@ -113,6 +119,9 @@ header.sec{
 		min-height: 250px;
     background: red;
     border-radius: 50%;
+		-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+		-khtml-border-radius: 50%;
     position: absolute;
     top: 0;
     left: 0;
@@ -236,6 +245,7 @@ header.home .row, footer.home, #home{
 }
 .slider {
     -webkit-appearance: none;
+		-moz-appearance: none;
     width: 100%;
     height: 1px;
     background: #000;
@@ -244,21 +254,29 @@ header.home .row, footer.home, #home{
 }
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
+		-moz-appearance: none;
     appearance: none;
     width: 20px;
     height: 20px;
     background: #000;
     cursor: pointer;
 }
+.slider::-moz-range-track{
+	background: black;
+	height: 1px;
+}
 .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #4CAF50;
+    background: #000;
     cursor: pointer;
+		border-radius: 0px;
+		border: none;
 }
 .bios{
 	margin-top: 40px;
 	font-weight: 400;
+	color: black;
 }
 .bios span{
 	font-weight: 600;
@@ -306,7 +324,7 @@ header.home .row, footer.home, #home{
 	background: #cec9c9;
 }
 .textRec{
-	background: #323232;
+	background: black;
 	color: white;
 	padding: 10px;
 	font-size: 10px;
@@ -316,7 +334,8 @@ header.home .row, footer.home, #home{
 }
 /**Quienes somos**/
 #año2017{
-
+	height: calc(100vh - 160px);
+	min-height: 400px;
 }
 .arch{
 	position: relative;
@@ -325,7 +344,7 @@ header.home .row, footer.home, #home{
 	background-position: center;
 	background-size: cover;
 	margin-top: 30px;
-	border: 1px solid gray;
+	box-shadow: 1px 2px 20px #bab8b8;
 }
 .titleArch{
 	position: absolute;

@@ -21,7 +21,12 @@ a:hover{
 	text-decoration: none;
 	color: black;
 }
-
+.web{
+	display: block;
+}
+.movil{
+	display: none;
+}
 /**Commun**/
 .vertical-align{
 	height: 100%;
@@ -46,6 +51,17 @@ a:hover{
 	margin-top: 50px;
 }
 /**Header**/
+#ham, .pintaHome{
+	width: 30px;
+	margin: auto !important;
+	position: absolute !important;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: block;
+	cursor: pointer;
+}
 .icon-menu{
 	font-size: 40px;
 	cursor: pointer;
@@ -242,7 +258,7 @@ footer{
 	font-weight: bold;
 }
 .bkgrnd-pink{
-	background: #dfd6d8;
+	background: #dfd6d7 !important;
 }
 .image-title{
 	color: white;
@@ -261,7 +277,7 @@ footer{
 	background: #FFFFFF;
 }
 .bkgrnd-pink2{
-	background: #d43e50;
+	background: #da1549 !important;
 }
 
 #scrollContainer{
@@ -307,7 +323,7 @@ footer{
 	cursor: pointer;
 }
 .bkgrnd-pink3{
-	background: #d63f55;
+	background: #da1549 !important;
 }
 #containerMap{
 	position: relative;
@@ -380,7 +396,7 @@ footer{
 	font-weight: bold;
 }
 .titlaSlider span{
-	font-style: 22px;
+	font-size: 22px;
 	color: #DA1549;
 	font-weight: normal;
 }

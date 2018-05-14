@@ -26,8 +26,8 @@
   }
   /*Home*/
   #ham, #pinta{
-    position: relative;
-    margin-top: 20px;
+    position: relative !important;
+    margin-top: 20px !important;
   }
   #logoHome{
     width: 100%;
