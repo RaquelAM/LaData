@@ -168,7 +168,7 @@ a:hover{
 	top: -moz-calc(20vh + 50px);
 	top: calc(20vh + 50px);
 	right: -100vw;
-    background-color: #00000087;
+    background-image: url('../../img/background_banner.png');
     color: white;
     padding: 45px 0px 45px 45px;
     font-weight: normal;
