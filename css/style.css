@@ -102,33 +102,41 @@ header.sec{
 	margin: -20px 0 0 10px;
 }
 #logoHome{
+	max-height: 90px;
+	height: -webkit-calc( 100% - 60px);
+	height: -moz-calc( 100% - 60px);
 	height: calc( 100% - 60px);
 	margin: 40px auto 20px;
-	max-height: 90px;
 }
 #home{
 	width: 100%;
-	height: calc(100vh - 235px);
 	min-height: 400px;
+	height: -webkit-calc(100vh - 235px);
+	height: -moz-calc(100vh - 235px);
+	height: calc(100vh - 235px);
 	position: relative;
 }
 #circle{
+	min-width: 250px;
+	width: -webkit-calc(90vh - 250px);
+	width: -moz-calc(90vh - 250px);
 	width: calc(90vh - 250px);
-    height: calc(90vh - 250px);
-		min-width: 250px;
-		min-height: 250px;
-    background: red;
-    border-radius: 50%;
-		-webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-		-khtml-border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    overflow: hidden;
+	min-height: 250px;
+  height: -webkit-calc(90vh - 250px);
+  height: -moz-calc(90vh - 250px);
+  height: calc(90vh - 250px);
+  background: red;
+  border-radius: 50%;
+	-webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+	-khtml-border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  overflow: hidden;
 }
 #sliderHome{
 	width: 100%;
@@ -151,6 +159,8 @@ header.sec{
 /**Menu**/
 
 header.home .row.open, footer.home.open, #home.open{
+	width: -webkit-calc(100% - 380px);
+	width: -moz-calc(100% - 380px);
 	width: calc(100% - 380px);
 	margin-left: 380px;
 }
@@ -180,8 +190,10 @@ header.home .row, footer.home, #home{
 	overflow: hidden;
 }
 #pintaSection{
-	height: calc(100vh - 235px);
 	min-height: 400px;
+	height: -webkit-calc(100vh - 235px);
+	height: -moz-calc(100vh - 235px);
+	height: calc(100vh - 235px);
 	width: 100%;
 	overflow-x: scroll;
 	overflow-y: hidden;
@@ -234,14 +246,18 @@ header.home .row, footer.home, #home{
 
 /**Quienes somos**/
 #quienesSomosSection{
-	height: calc(100vh - 160px);
 	min-height: 400px;
+	height: -webkit-calc(100vh - 235px);
+	height: -moz-calc(100vh - 235px);
+	height: calc(100vh - 235px);
 }
 .selectPerson{
 	width: 100%;
 }
 .selectPerson img{
 	display: inline-block;
+	width: -webkit-calc(100%/8 - 5%);
+	width: -moz-calc(100%/8 - 5%);
 	width: calc(100%/8 - 5%);
 	margin: 20px 2%;
 	cursor: pointer;
@@ -292,8 +308,10 @@ header.home .row, footer.home, #home{
 
 /**Colaboraciones**/
 #colaboraciones{
-	height: calc(100vh - 160px);
 	min-height: 400px;
+	height: -webkit-calc(100vh - 235px);
+	height: -moz-calc(100vh - 235px);
+	height: calc(100vh - 235px);
 }
 .imgCol{
 	width: 150px;
@@ -315,8 +333,10 @@ header.home .row, footer.home, #home{
 }
 /**Recomienda**/
 #recomiendaSec{
-	height: calc(100vh - 160px);
 	min-height: 400px;
+	height: -webkit-calc(100vh - 235px);
+	height: -moz-calc(100vh - 235px);
+	height: calc(100vh - 235px);
 }
 #recomienda span{
 	color: white !important;
@@ -337,8 +357,10 @@ header.home .row, footer.home, #home{
 }
 /**Quienes somos**/
 #año2017{
-	height: calc(100vh - 160px);
 	min-height: 400px;
+	height: -webkit-calc(100vh - 235px);
+	height: -moz-calc(100vh - 235px);
+	height: calc(100vh - 235px);
 }
 .arch{
 	position: relative;

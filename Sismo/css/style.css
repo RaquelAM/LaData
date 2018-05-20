@@ -81,6 +81,8 @@ a:hover{
 /**Banner**/
 #banner-container{
 	position: relative;
+	height: -webkit-calc(100vh - 70px);
+	height: -moz-calc(100vh - 70px);
 	height: calc(100vh - 70px);
 }
 #banner{
@@ -162,6 +164,8 @@ a:hover{
 }
 #info-banner{
 	position: absolute;
+	top: -webkit-calc(20vh + 50px);
+	top: -moz-calc(20vh + 50px);
 	top: calc(20vh + 50px);
 	right: -100vw;
     background-color: #00000087;
@@ -297,7 +301,9 @@ footer{
     top: 0;
 }
 #imgArrows{
-    top: calc(45vh - 60px);
+    top: -webkit-calc(45vh - 60px);
+		top: -moz-calc(45vh - 60px);
+		top: calc(45vh - 60px);
     width: 120px;
     height: 120px;
     background-image: url("../../img/sismo/social/scroll vertical.svg");
