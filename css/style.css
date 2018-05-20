@@ -407,3 +407,6 @@ footer, header .row, #home{
 .activeSec a{
 	color: #cbcbcb;
 }
+footer .col-sm-4{
+	margin: 10px auto;
+}
