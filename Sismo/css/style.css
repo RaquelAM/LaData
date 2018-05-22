@@ -285,10 +285,9 @@ footer{
 }
 
 #scrollContainer{
-	height: 90vh;
-	overflow: hidden;
+	height: 80vh;
+	overflow-y: scroll;
 	position: relative;
-	display: table;
 }
 #imgToScroll{
 	-webkit-transition: all 1.5s linear;
@@ -304,14 +303,14 @@ footer{
     top: -webkit-calc(45vh - 60px);
 		top: -moz-calc(45vh - 60px);
 		top: calc(45vh - 60px);
+		left: 45%;
     width: 120px;
     height: 120px;
     background-image: url("../../img/sismo/social/scroll vertical.svg");
     background-size: cover;
     margin: auto;
     text-align: center;
-    position: relative;
-    cursor: pointer;
+    position: fixed;
 }
 #imgArrows.showA{
 	display: table-cell;

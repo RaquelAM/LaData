@@ -98,11 +98,7 @@ $(document).ready(function(){
 		}
 	});
 	//Animation scroll image
-	var imgH = "-"+$('#imgToScroll').height() / 2;
 
-	var func = '';
-	var cont = 0;
-	var contBig = 0;
 	$('#scrollContainer').mouseover(function(){
 		$("#imgArrows").show();
 	});
@@ -110,34 +106,6 @@ $(document).ready(function(){
 		$("#imgArrows").hide();
 	});
 
-	$('#up').mouseover(function(e){
-        	clearInterval(func);
-		    func =  setInterval(function() {
-		    	if (contBig <= 0) {
-		    		cont++;
-				   contBig = cont * 10;
-				   $("#imgToScroll").css("top", contBig + "px");
-		    	}
-
-			}, 100);
-	});
-    $('#up').mouseout(function() {
-        clearInterval(func);
-	});
-	$('#down').mouseover(function(e){
-        	clearInterval(func);
-		    func =  setInterval(function() {
-		    	if (contBig >= imgH) {
-		    		cont--;
-				   contBig = cont * 10;
-				   $("#imgToScroll").css("top", contBig + "px");
-		    	}
-
-			}, 100);
-	});
-    $('#down').mouseout(function() {
-        clearInterval(func);
-	});
 	//Toggle image
 	$("#byCol").on("click", function(){
 		$(".optSocial").removeClass("activeS");
