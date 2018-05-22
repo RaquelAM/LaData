@@ -395,6 +395,22 @@ footer{
 	width: 70%;
 	max-width: 300px;
 }
+.quotes{
+	position: relative;
+}
+.comillaTop{
+	position: absolute;
+	width: 40px;
+	top: 0;
+	right: -45px;
+	transform: rotate(180deg);
+}
+.comillaBottom{
+	position: absolute;
+	width: 40px;
+	bottom: 0;
+	left: -45px;
+}
 .titlaSlider{
 	font-family: lato;
 	font-size: 24px;
