@@ -150,12 +150,28 @@
       $('#sliderHome').slick({
         dots: false,
         infinite: true,
-        speed: 1300,
+        speed: 1200,
         fade: true,
         cssEase: 'linear',
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 6000,
+        responsive: [{
+          breakpoint: 800,
+          settings: {
+            draggable: true
+          }
+
+        }]
       });
+
+    	$("#sliderHome").mouseleave(function(e){
+        		console.log(e.pageX);
+            if (e.pageX > 250) {
+              $("#sliderHome").slick("slickNext");
+            }else{
+              $("#sliderHome").slick("slickPrev");
+            }
+     	});
     </script>
   </body>
 </html>

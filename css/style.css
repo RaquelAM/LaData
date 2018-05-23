@@ -87,13 +87,7 @@ header.sec{
 /**Header home**/
 #ham, .pintaHome{
 	width: 30px;
-	margin: auto !important;
-	position: absolute !important;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	display: block;
+	margin: 22px auto !important;
 	cursor: pointer;
 }
 #pinta{
@@ -198,9 +192,9 @@ header.home .row, footer.home, #home{
 }
 #pintaSection{
 	min-height: 400px;
-	height: -webkit-calc(100vh - 235px);
-	height: -moz-calc(100vh - 235px);
-	height: calc(100vh - 235px);
+	height: -webkit-calc(100vh - 155px);
+	height: -moz-calc(100vh - 155px);
+	height: calc(100vh - 155px);
 	width: 100%;
 	overflow-x: scroll;
 	overflow-y: hidden;
@@ -254,9 +248,9 @@ header.home .row, footer.home, #home{
 /**Quienes somos**/
 #quienesSomosSection{
 	min-height: 400px;
-	height: -webkit-calc(100vh - 235px);
-	height: -moz-calc(100vh - 235px);
-	height: calc(100vh - 235px);
+	height: -webkit-calc(100vh - 155px);
+	height: -moz-calc(100vh - 155px);
+	height: calc(100vh - 155px);
 }
 .selectPerson{
 	width: 100%;
@@ -316,9 +310,9 @@ header.home .row, footer.home, #home{
 /**Colaboraciones**/
 #colaboraciones{
 	min-height: 400px;
-	height: -webkit-calc(100vh - 235px);
-	height: -moz-calc(100vh - 235px);
-	height: calc(100vh - 235px);
+	height: -webkit-calc(100vh - 155px);
+	height: -moz-calc(100vh - 155px);
+	height: calc(100vh - 155px);
 }
 .imgCol{
 	width: 150px;
@@ -341,9 +335,9 @@ header.home .row, footer.home, #home{
 /**Recomienda**/
 #recomiendaSec{
 	min-height: 400px;
-	height: -webkit-calc(100vh - 235px);
-	height: -moz-calc(100vh - 235px);
-	height: calc(100vh - 235px);
+	height: -webkit-calc(100vh - 155px);
+	height: -moz-calc(100vh - 155px);
+	height: calc(100vh - 155px);
 }
 #recomienda span{
 	color: white !important;
@@ -365,9 +359,9 @@ header.home .row, footer.home, #home{
 /**Quienes somos**/
 #año2017{
 	min-height: 400px;
-	height: -webkit-calc(100vh - 235px);
-	height: -moz-calc(100vh - 235px);
-	height: calc(100vh - 235px);
+	height: -webkit-calc(100vh - 155px);
+	height: -moz-calc(100vh - 155px);
+	height: calc(100vh - 155px);
 }
 .arch{
 	position: relative;

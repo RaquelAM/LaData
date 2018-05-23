@@ -53,13 +53,7 @@ a:hover{
 /**Header**/
 #ham, .pintaHome{
 	width: 30px;
-	margin: auto !important;
-	position: absolute !important;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	display: block;
+	margin: 22px auto !important;
 	cursor: pointer;
 }
 .icon-menu{

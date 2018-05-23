@@ -48,7 +48,7 @@ d3.tsv("datos/datasismo.tsv",type,function(error,data){
 		.attr("text-anchor","middle")
 		.attr("dominant-baseline"," text-before-edge")
 		.style("font-size",parseInt(3+100*c/5.)+"px")
-		.style("fill-opacity",1)
+		.style("fill-opacity",.4)
 		.on("click",fclick);
 
 	svg.append("text")
@@ -59,7 +59,7 @@ d3.tsv("datos/datasismo.tsv",type,function(error,data){
 		.attr("text-anchor","middle")
 		.attr("dominant-baseline"," text-before-edge")
 		.style("font-size",parseInt(3+100*c/5.)+"px")
-		.style("fill-opacity",.4)
+		.style("fill-opacity",1)
 		.on("click",fclick);
 
 	var ladata=data;
@@ -76,16 +76,16 @@ function fclick(ladata){
 		.duration(2000)
 		.attr("transform",function(d,i){console.log(d.delx);
 			return "translate("+c*d.delx+","+(c*d.dely+h1)+")"})
-		
+
 	d3.select(this)
 		.transition()
 		.duration(2000)
-		.style("fill-opacity",.4)
+		.style("fill-opacity",1)
 
 	d3.select(".delegacion")
 		.transition()
 		.duration(2000)
-		.style("fill-opacity",1)
+		.style("fill-opacity",.4)
 
 
 	d3.selectAll(".Dele")
@@ -109,13 +109,13 @@ function fclick(ladata){
 	d3.select(this)
 		.transition()
 		.duration(2000)
-		.style("fill-opacity",.4)
+		.style("fill-opacity",1)
 
 
 	d3.select(".suelo")
 		.transition()
 		.duration(2000)
-		.style("fill-opacity",1)
+		.style("fill-opacity",.4)
 
 	d3.selectAll(".Dele")
 		.transition()
