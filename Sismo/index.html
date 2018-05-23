@@ -29,7 +29,7 @@
               <img src="../img/menu.svg" id="ham" class="">
             </div>
             <div class="col-md-9 container-logo">
-              <a href="../index.html"><img src="../img/logo_creditos_black.svg"></a> 
+              <a href="../index.html"><img src="../img/logo_creditos_black.svg"></a>
             </div>
           </div>
           <div class="col-md-6">
@@ -206,6 +206,11 @@
         autoplay: true,
         autoplaySpeed: 5000,
       });
+      var width = $(window).width();
+      if (width > 800) {
+        $("#info-banner").toggleClass("open");
+        $(".option").toggleClass("hideOP");
+      }
     </script>
   </body>
 </html>
