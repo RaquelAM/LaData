@@ -218,13 +218,13 @@ header.home .row, footer.home, #home{
 	position: relative;
 	display: inline-block;
 }
-.containerCircle:nth-of-type(odd) .circlePinta{
+/*.containerCircle:nth-of-type(odd) .circlePinta{
     top: 0;
 }
 
 .containerCircle:nth-of-type(even) .circlePinta{
     bottom: 0;
-}
+}*/
 .circlePinta{
 	width: 230px;
 	height: 230px;
