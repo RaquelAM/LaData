@@ -37,7 +37,7 @@ $(document).ready(function(){
   $("#cerrarPinta").on("click", function(){
     window.history.back();
   });
-  var max = $("#containerPintaSection").height() -250;
+  var max = $("#containerPintaSection").height() -350;
   $.each( $('.containerCircle'), function(i, cont) {
      $('.circlePinta', cont).each(function(i, elem) {
           var top = max * Math.random();
