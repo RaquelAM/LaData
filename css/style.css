@@ -243,6 +243,15 @@ header.home .row, footer.home, #home{
   border-radius: 20px;
   text-align: center;
   line-height: 40px;
+	opacity: 0;
+	-webkit-transition: all 1.5s ease-out;
+    -moz-transition: all 1.5s ease-out;
+    -ms-transition: all 1.5s ease-out;
+    -o-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+.circlePinta:hover .title{
+	opacity: 1;
 }
 
 /**Quienes somos**/

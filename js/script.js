@@ -28,12 +28,12 @@ $(document).ready(function(){
         $("#home").removeClass("open");
     });
  /**La Data Pinta**/
- $(".circlePinta").mouseover(function() {
+ /*$(".circlePinta").mouseover(function() {
     $(this).find(".title").fadeIn();
   })
   .mouseout(function() {
     $(this).find(".title").fadeOut();
-  });
+  });*/
   $("#cerrarPinta").on("click", function(){
     window.history.back();
   });
