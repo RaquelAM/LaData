@@ -49,7 +49,7 @@
     padding-top: 20px !important;
   }
   #logPinta{
-    font-size: 45px;
+    font-size: 40px;
   }
   #pintaSearch{
     right: 40px;
@@ -58,5 +58,8 @@
   /**Archivo**/
   .arch{
     height: 55vw;
+  }
+  .circlePinta .title{
+    opacity: 1;
   }
 }
