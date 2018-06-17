@@ -151,6 +151,26 @@ $(document).ready(function(){
 		$('#appendImg').prepend($('<img>',{class: 'imageCol', src:'../img/sismo/ley/colonias/'+col}))
     });
 
+    /*Buscador Archivo*/
+    var arrayIndexArchivo = [];
+    console.log(dataArchivo);
+    $("#containerFind img").on("click", function(){
+      //Obtengo arreglo de las palabras del input
+      var search = $("#containerFind input").val();
+      var searchWords = search.split(" ");
+      $.each(searchWords, function(index, value) {
+        $.each(dataArchivo, function(i, val){
+          var words = val.Titulo.concat(val.Etiquetas);
+          var n = words.indexOf(value);
+          if (n > 0) {
+            arrayIndexArchivo.push(i);
+          }
+        })
+      })
+      var stringArray = arrayIndexArchivo.toString();
+      var url = "2017.html?"+stringArray;
+      location.replace(url)
+    })
 
 });
 //Sort array

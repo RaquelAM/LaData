@@ -1,0 +1,114 @@
+dataArchivo = [
+    {
+        "Titulo": "Las jerarquiaz de la violencia",
+        "Imagen": "Protocolounamarchivo.png",
+        "Link": "http://www.ladata.mx/s01c01/index.html",
+        "Etiquetas": "Mujeres, Violencia, Genero, Desigualdad,UNAM ",
+        "Mes": "Agosto"
+    },
+    {
+        "Titulo": "El nuevo oro es verde: las farmaceuticas tras la marihuana",
+        "Imagen": "marihuanamedicinalarchivo.png",
+        "Link": "http://www.ladata.mx/s01c02/index.html",
+        "Etiquetas": "Marihuana, Economia",
+        "Mes": "Agosto"
+    },
+    {
+        "Titulo": "¿Que se puede comprar con 60mil millones de pesos?",
+        "Imagen": "duartearchivo.png",
+        "Link": "http://www.ladata.mx/s01c03/index.html",
+        "Etiquetas": "Corrupcion, Gobierno",
+        "Mes": "Agosto"
+    },
+    {
+        "Titulo": "Que se haga mi voluntad... !Y no la tuya!",
+        "Imagen": "yodecidoarchivo.png",
+        "Link": "http://www.ladata.mx/s01c04/index.html",
+        "Etiquetas": "Aborto, Derechos, Humanos, Mujeres",
+        "Mes": "Agosto"
+    },
+    {
+        "Titulo": "Los matices de Andy Warhol",
+        "Imagen": "Warholarchivo.png",
+        "Link": "http://www.ladata.mx/s01c05/index.html",
+        "Etiquetas": "Warhol, Arte, Ludico",
+        "Mes": "Agosto"
+    },
+    {
+        "Titulo": "Agresiones al alza, mecanismo en picada",
+        "Imagen": "Mecanismoarchivo.png",
+        "Link": "http://www.ladata.mx/s02c01/index.html",
+        "Etiquetas": "Periodismo, Activismo, Instituciones",
+        "Mes": "Agosto"
+    },
+    {
+        "Titulo": "Mexicanos al grito de Porno",
+        "Imagen": "pornoarchivo.png",
+        "Link": "http://www.ladata.mx/s02c02/index.html",
+        "Etiquetas": "Porno, Ludico",
+        "Mes": "Septiembre"
+    },
+    {
+        "Titulo": "Policiaas Comunitarios",
+        "Imagen": "PoliciaComunitariaarchivo.png",
+        "Link": "http://www.ladata.mx/s02c03/index.html",
+        "Etiquetas": " Seguridad, Comunitario, Pueblos,  Autonomia ",
+        "Mes": "Septiembre"
+    },
+    {
+        "Titulo": "Pedro Paramo, una piedra en el desierto",
+        "Imagen": "PedroParamoarchivo.png",
+        "Link": "http://www.ladata.mx/s02c04/index.html",
+        "Etiquetas": "Literatura, Rulfo",
+        "Mes": "Septiembre"
+    },
+    {
+        "Titulo": "Gastos de campaña: inversion en democracia o gasto a fondo perdido",
+        "Imagen": "PresupuestoElectoralarchivo.png",
+        "Link": "http://www.ladata.mx/s02c05/index.html",
+        "Etiquetas": "Elecciones, Gobierno",
+        "Mes": "Septiembre"
+    },
+    {
+        "Titulo": "La trampa entre fronteras: deportados centroamericanos ",
+        "Imagen": "migrantesarchivo.png",
+        "Link": "http://www.ladata.mx/s03c01/index.html",
+        "Etiquetas": "Migracion, Centroamerica, Deportaciones",
+        "Mes": "Septiembre"
+    },
+    {
+        "Titulo": "Nuevo sistema penal, viejos vicios",
+        "Imagen": "prisonarchivo.pmg",
+        "Link": "http://www.ladata.mx/s03c02/index.html",
+        "Etiquetas": "Penal, Gobierno ",
+        "Mes": "Septiembre"
+    },
+    {
+        "Titulo": "El CIG, el otro jugador en la contienda presidencial",
+        "Imagen": "CNIarchivo.png",
+        "Link": "http://www.ladata.mx/s03c03/index.html",
+        "Etiquetas": "Indigenas, Democracia, Elecciones, Autonomia ",
+        "Mes": "Septiembre"
+    },
+    {
+        "Titulo": "Y a los niños, ¿Quien los cuida?",
+        "Imagen": "niñosarchivo.png",
+        "Link": "http://www.ladata.mx/s03c04/index.html",
+        "Etiquetas": "Niños, Guarderias ",
+        "Mes": "Septiembre"
+    },
+    {
+        "Titulo": "La Data del Boxeo",
+        "Imagen": "boxarchivos.png",
+        "Link": "http://www.ladata.mx/s04c01/index.html",
+        "Etiquetas": "Deporte, Box, Historia",
+        "Mes": "Septiembre"
+    },
+    {
+        "Titulo": "Terremotos en México, 100 años y contando",
+        "Imagen": "sissmosarchivo.png",
+        "Link": "http://www.ladata.mx/s04c02/index.html",
+        "Etiquetas": "Sismos, Historia ",
+        "Mes": "Septiembre"
+    }
+]
