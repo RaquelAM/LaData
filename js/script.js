@@ -156,20 +156,23 @@ $(document).ready(function(){
     console.log(dataArchivo);
     $("#containerFind img").on("click", function(){
       //Obtengo arreglo de las palabras del input
-      var search = $("#containerFind input").val();
+      var search = $("#containerFind input").val().toLowerCase();
+      if (search !== "") {
+
       var searchWords = search.split(" ");
       $.each(searchWords, function(index, value) {
         $.each(dataArchivo, function(i, val){
-          var words = val.Titulo.concat(val.Etiquetas);
-          var n = words.indexOf(value);
+          var words = val.Titulo.toLowerCase().concat(val.Etiquetas.toLowerCase());
+          var n = words.indexOf(value.toLowerCase());
           if (n > 0) {
             arrayIndexArchivo.push(i);
           }
         })
       })
       var stringArray = arrayIndexArchivo.toString();
-      var url = "2017.html?"+stringArray;
+      var url = "busqueda.html?"+stringArray;
       location.replace(url)
+      }
     })
 
 });
@@ -180,4 +183,22 @@ function compare(a,b) {
   if (a.name > b.name)
     return 1;
   return 0;
+};
+function resultSearch(){
+  var link = window.location;
+  var items = link.toString().split("?")[1].split(",");
+  console.log(items[0])
+  if (items[0] == "") {
+    $("#search").append("<h4>No se encontraron resultados</h4>")
+  }else{
+  $.each(items, function(i, value){
+    $("#search").append("<div class='col-md-4'>\
+      <a href='"+dataArchivo[value].Link+"'>\
+        <div class='arch' style='background-image: url(img/archivo/"+dataArchivo[value].Imagen+")''>\
+          <span class='titleArch'>"+dataArchivo[value].Titulo+"</span>\
+          <span class='mesArch'>"+dataArchivo[value].Mes+"</span>\
+        </div>\
+      </a>\
+    </div>")
+  })}
 }

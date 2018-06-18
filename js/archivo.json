@@ -99,14 +99,14 @@ dataArchivo = [
     },
     {
         "Titulo": "La Data del Boxeo",
-        "Imagen": "boxarchivos.png",
+        "Imagen": "boxarchivo.png",
         "Link": "http://www.ladata.mx/s04c01/index.html",
         "Etiquetas": "Deporte, Box, Historia",
         "Mes": "Septiembre"
     },
     {
         "Titulo": "Terremotos en México, 100 años y contando",
-        "Imagen": "sissmosarchivo.png",
+        "Imagen": "sismosarchivo.png",
         "Link": "http://www.ladata.mx/s04c02/index.html",
         "Etiquetas": "Sismos, Historia ",
         "Mes": "Septiembre"
