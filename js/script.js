@@ -384,8 +384,8 @@ $(document).ready(function(){
       })
       var stringArray = arrayIndexArchivo.toString();
       var domain = document.domain;
-      var url = domain + "busqueda.html?"+stringArray;
-      location.replace(url)
+      var url = "http://"+domain + "/busqueda.html?"+stringArray;
+      window.location.replace(url)
 
       }
     });
@@ -403,8 +403,8 @@ $(document).ready(function(){
       })
       var stringArray = arrayIndexArchivo.toString();
       var domain = document.domain;
-      var url = domain + "busqueda.html?"+stringArray;
-      location.replace(url)
+      var url = "http://"+domain + "/busqueda.html?"+stringArray;
+      window.location.replace(url)
 
     })
 
