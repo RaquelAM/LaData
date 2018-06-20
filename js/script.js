@@ -1,4 +1,217 @@
 $(document).ready(function(){
+    /**Menu**/
+
+    if ($("#menu").hasClass("site")) {
+      $("#menu").append('<div id="containerMenu">\
+        <div class="containerCerrar">\
+          <img src="img/cerrar.svg" style="width: 25px;">\
+          <div class="cerrar">\
+            <span>Cerrar</span>\
+          </div>\
+        </div>\
+        <div id="containerFind">\
+          <input type="text" name="find">\
+          <img src="img/buscar.svg" style="height: 25px; margin-left: 5px;">\
+        </div>\
+        <div class="row ptb-20px">\
+          <div class="col-6 active" id="reciente">\
+            Reciente\
+          </div>\
+          <div class="col-6" id="archivo">\
+            Archivo\
+          </div>\
+        </div>\
+        <div class="reciente">\
+          <div>\
+            <a href="#">Terremotos en México, 100 años y contando</a>\
+          </div>\
+          <div>\
+            <a href="#">La data del boxeo</a>\
+          </div>\
+          <div>\
+            <a href="#">Y los niños, ¿quién los cuida?</a>\
+          </div>\
+          <div>\
+            <a href="#">El CIG, el otro jugador de la contienda presi...</a>\
+          </div>\
+          <div>\
+            <a href="#">Nuevo sistema penal, viejos vicios</a>\
+          </div>\
+        </div>\
+        <div class="archivo" style="display: none;">\
+          <a href="2017.html">\
+          <span>2017</span>\
+          </a>\
+        </div>\
+        <hr>\
+        <div id="temas">\
+          <div>\
+            <b>Temas</b>\
+          </div>\
+          <div id="scrollTemas">\
+            <div id="contentTemas">\
+              <span>Mujeres</span>\
+              <span>Violencia</span>\
+              <span>Genero</span>\
+              <span>Desigualdad</span>\
+              <span>UNAM</span>\
+              <span>Marihuana</span>\
+              <span>Economia</span>\
+              <span>Corrupcion</span>\
+              <span>Gobierno</span>\
+              <span>Aborto</span>\
+              <span>Derechos</span>\
+              <span>Humanos</span>\
+              <span>Warhol</span>\
+              <span>Arte</span>\
+              <span>Ludico</span>\
+              <span>Periodismo</span>\
+              <span>Activismo</span>\
+              <span>Instituciones</span>\
+              <span>Porno</span>\
+              <span>Seguridad</span>\
+              <span>Comunitario</span>\
+              <span>Pueblos</span>\
+              <span>Literatura</span>\
+              <span>Rulfo</span>\
+              <span>Migracion</span>\
+              <span>Centroamerica</span>\
+              <span>Deportaciones</span>\
+              <span>Penal</span>\
+              <span>Indigenas</span>\
+              <span>Democracia</span>\
+              <span>Elecciones</span>\
+              <span>Autonomia</span>\
+              <span>Niños</span>\
+              <span>Guarderias</span>\
+              <span>Deporte</span>\
+              <span>Box</span>\
+              <span>Historia</span>\
+              <span>Sismos</span>\
+            </div>\
+          </div>\
+        </div>\
+        <a href="recomienda.html">\
+        <div id="recomienda">\
+          <img src="img/corazon.svg" style="width: 25px;">\
+          <div>\
+            <span>#LaDataRecomienda</span>\
+          </div>\
+        </div>\
+        </a>\
+        <hr>\
+        <div id="social">\
+          <img src="img/facebook.svg">\
+          <img src="img/instagram.svg">\
+          <img src="img/twitter.svg">\
+        </div>\
+      </div>')
+    }else{
+      $("#menu").append('<div id="containerMenu">\
+        <div class="containerCerrar">\
+          <img src="../img/cerrar.svg" style="width: 25px;">\
+          <div class="cerrar">\
+            <span>Cerrar</span>\
+          </div>\
+        </div>\
+        <div id="containerFind">\
+          <input type="text" name="find">\
+          <img src="../img/buscar.svg" style="height: 25px; margin-left: 5px;">\
+        </div>\
+        <div class="row ptb-20px">\
+          <div class="col-6 active" id="reciente">\
+            Reciente\
+          </div>\
+          <div class="col-6" id="archivo">\
+            Archivo\
+          </div>\
+        </div>\
+        <div class="reciente">\
+          <div>\
+            <a href="#">Terremotos en México, 100 años y contando</a>\
+          </div>\
+          <div>\
+            <a href="#">La data del boxeo</a>\
+          </div>\
+          <div>\
+            <a href="#">Y los niños, ¿quién los cuida?</a>\
+          </div>\
+          <div>\
+            <a href="#">El CIG, el otro jugador de la contienda presi...</a>\
+          </div>\
+          <div>\
+            <a href="#">Nuevo sistema penal, viejos vicios</a>\
+          </div>\
+        </div>\
+        <div class="archivo" style="display: none;">\
+          <a href="../2017.html">\
+          <span>2017</span>\
+          </a>\
+        </div>\
+        <hr>\
+        <div id="temas">\
+          <div>\
+            <b>Temas</b>\
+          </div>\
+          <div id="scrollTemas">\
+            <div id="contentTemas">\
+              <span>Mujeres</span>\
+              <span>Violencia</span>\
+              <span>Genero</span>\
+              <span>Desigualdad</span>\
+              <span>UNAM</span>\
+              <span>Marihuana</span>\
+              <span>Economia</span>\
+              <span>Corrupcion</span>\
+              <span>Gobierno</span>\
+              <span>Aborto</span>\
+              <span>Derechos</span>\
+              <span>Humanos</span>\
+              <span>Warhol</span>\
+              <span>Arte</span>\
+              <span>Ludico</span>\
+              <span>Periodismo</span>\
+              <span>Activismo</span>\
+              <span>Instituciones</span>\
+              <span>Porno</span>\
+              <span>Seguridad</span>\
+              <span>Comunitario</span>\
+              <span>Pueblos</span>\
+              <span>Literatura</span>\
+              <span>Rulfo</span>\
+              <span>Migracion</span>\
+              <span>Centroamerica</span>\
+              <span>Deportaciones</span>\
+              <span>Penal</span>\
+              <span>Indigenas</span>\
+              <span>Democracia</span>\
+              <span>Elecciones</span>\
+              <span>Autonomia</span>\
+              <span>Niños</span>\
+              <span>Guarderias</span>\
+              <span>Deporte</span>\
+              <span>Box</span>\
+              <span>Historia</span>\
+              <span>Sismos</span>\
+            </div>\
+          </div>\
+        </div>\
+        <a href="recomienda.html">\
+        <div id="recomienda">\
+          <img src="../img/corazon.svg" style="width: 25px;">\
+          <div>\
+            <span>#LaDataRecomienda</span>\
+          </div>\
+        </div>\
+        </a>\
+        <hr>\
+        <div id="social">\
+          <img src="../img/facebook.svg">\
+          <img src="../img/instagram.svg">\
+          <img src="../img/twitter.svg">\
+        </div>\
+      </div>')
+    }
     /***HOME***/
     $("#reciente").on("click", function(){
         $("#reciente").addClass("active");
@@ -170,9 +383,29 @@ $(document).ready(function(){
         })
       })
       var stringArray = arrayIndexArchivo.toString();
-      var url = "busqueda.html?"+stringArray;
+      var domain = document.domain;
+      var url = domain + "busqueda.html?"+stringArray;
       location.replace(url)
+
       }
+    });
+
+    /*Busqueda por Temas*/
+    $("#contentTemas span").on("click", function(){
+      var tema =  $(this).text().toLowerCase();
+      console.log(tema);
+      $.each(dataArchivo, function(i, val){
+        var words = val.Titulo.toLowerCase().concat(val.Etiquetas.toLowerCase());
+        var n = words.indexOf(tema.toLowerCase());
+        if (n > 0) {
+          arrayIndexArchivo.push(i);
+        }
+      })
+      var stringArray = arrayIndexArchivo.toString();
+      var domain = document.domain;
+      var url = domain + "busqueda.html?"+stringArray;
+      location.replace(url)
+
     })
 
 });

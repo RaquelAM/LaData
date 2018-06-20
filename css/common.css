@@ -112,3 +112,12 @@ hr{
 	height: 25px;
 	margin: 10px;
 }
+#scrollTemas{
+	overflow-y: hidden;
+	overflow-x: scroll;
+	height: 200px;
+}
+#contentTemas{
+	height: 100%;
+	width: 1000px;
+}
