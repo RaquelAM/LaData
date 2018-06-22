@@ -30,7 +30,7 @@
     height: calc(100vh - 265px) !important;
   }
   #ham, #pinta{
-    position: relative !important;
+    display: block !important;
     margin-top: 20px !important;
   }
   #logoHome{
