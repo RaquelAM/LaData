@@ -364,9 +364,10 @@ $(document).ready(function(){
 		$('#appendImg').prepend($('<img>',{class: 'imageCol', src:'../img/sismo/ley/colonias/'+col}))
     });
 
+
     /*Buscador Archivo*/
     var arrayIndexArchivo = [];
-    console.log(dataArchivo);
+    //console.log(dataArchivo);
     $("#containerFind img").on("click", function(){
       //Obtengo arreglo de las palabras del input
       var search = $("#containerFind input").val().toLowerCase();
@@ -434,4 +435,20 @@ function resultSearch(){
       </a>\
     </div>")
   })}
+};
+/**Contenido archivo**/
+function archivoContent(year){
+  //var json = JSON.parse(dataArchivo);
+  $.each(dataArchivo, function (idx, obj) {
+      if (obj.Año == year) {
+        $(".archivoCont").append("<div class='col-md-4'>\
+          <a href='"+obj.Link+"'>\
+            <div class='arch' style='background-image: url(img/archivo/"+obj.Imagen+")''>\
+              <span class='titleArch'>"+obj.Titulo+"</span>\
+              <span class='mesArch'>"+obj.Mes+"</span>\
+            </div>\
+          </a>\
+        </div>")
+      }
+  });
 }

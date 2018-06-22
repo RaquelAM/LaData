@@ -4,111 +4,127 @@ dataArchivo = [
         "Imagen": "Protocolounamarchivo.png",
         "Link": "http://www.ladata.mx/s01c01/index.html",
         "Etiquetas": "Mujeres, Violencia, Genero, Desigualdad,UNAM ",
-        "Mes": "Agosto"
+        "Mes": "Agosto",
+        "Año": 2017
     },
     {
         "Titulo": "El nuevo oro es verde: las farmaceuticas tras la marihuana",
         "Imagen": "marihuanamedicinalarchivo.png",
         "Link": "http://www.ladata.mx/s01c02/index.html",
         "Etiquetas": "Marihuana, Economia",
-        "Mes": "Agosto"
+        "Mes": "Agosto",
+        "Año": 2017
     },
     {
         "Titulo": "¿Que se puede comprar con 60mil millones de pesos?",
         "Imagen": "duartearchivo.png",
         "Link": "http://www.ladata.mx/s01c03/index.html",
         "Etiquetas": "Corrupcion, Gobierno",
-        "Mes": "Agosto"
+        "Mes": "Agosto",
+        "Año": 2017
     },
     {
         "Titulo": "Que se haga mi voluntad... !Y no la tuya!",
         "Imagen": "yodecidoarchivo.png",
         "Link": "http://www.ladata.mx/s01c04/index.html",
         "Etiquetas": "Aborto, Derechos, Humanos, Mujeres",
-        "Mes": "Agosto"
+        "Mes": "Agosto",
+        "Año": 2017
     },
     {
         "Titulo": "Los matices de Andy Warhol",
         "Imagen": "Warholarchivo.png",
         "Link": "http://www.ladata.mx/s01c05/index.html",
         "Etiquetas": "Warhol, Arte, Ludico",
-        "Mes": "Agosto"
+        "Mes": "Agosto",
+        "Año": 2017
     },
     {
         "Titulo": "Agresiones al alza, mecanismo en picada",
         "Imagen": "Mecanismoarchivo.png",
         "Link": "http://www.ladata.mx/s02c01/index.html",
         "Etiquetas": "Periodismo, Activismo, Instituciones",
-        "Mes": "Agosto"
+        "Mes": "Agosto",
+        "Año": 2017
     },
     {
         "Titulo": "Mexicanos al grito de Porno",
         "Imagen": "pornoarchivo.png",
         "Link": "http://www.ladata.mx/s02c02/index.html",
         "Etiquetas": "Porno, Ludico",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     },
     {
         "Titulo": "Policiaas Comunitarios",
         "Imagen": "PoliciaComunitariaarchivo.png",
         "Link": "http://www.ladata.mx/s02c03/index.html",
         "Etiquetas": " Seguridad, Comunitario, Pueblos,  Autonomia ",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     },
     {
         "Titulo": "Pedro Paramo, una piedra en el desierto",
         "Imagen": "PedroParamoarchivo.png",
         "Link": "http://www.ladata.mx/s02c04/index.html",
         "Etiquetas": "Literatura, Rulfo",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     },
     {
         "Titulo": "Gastos de campaña: inversion en democracia o gasto a fondo perdido",
         "Imagen": "PresupuestoElectoralarchivo.png",
         "Link": "http://www.ladata.mx/s02c05/index.html",
         "Etiquetas": "Elecciones, Gobierno",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     },
     {
         "Titulo": "La trampa entre fronteras: deportados centroamericanos ",
         "Imagen": "migrantesarchivo.png",
         "Link": "http://www.ladata.mx/s03c01/index.html",
         "Etiquetas": "Migracion, Centroamerica, Deportaciones",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     },
     {
         "Titulo": "Nuevo sistema penal, viejos vicios",
-        "Imagen": "prisonarchivo.pmg",
+        "Imagen": "prisonarchivo.png",
         "Link": "http://www.ladata.mx/s03c02/index.html",
         "Etiquetas": "Penal, Gobierno ",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     },
     {
         "Titulo": "El CIG, el otro jugador en la contienda presidencial",
         "Imagen": "CNIarchivo.png",
         "Link": "http://www.ladata.mx/s03c03/index.html",
         "Etiquetas": "Indigenas, Democracia, Elecciones, Autonomia ",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     },
     {
         "Titulo": "Y a los niños, ¿Quien los cuida?",
-        "Imagen": "niñosarchivo.png",
+        "Imagen": "ninosarchivo.png",
         "Link": "http://www.ladata.mx/s03c04/index.html",
         "Etiquetas": "Niños, Guarderias ",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     },
     {
         "Titulo": "La Data del Boxeo",
         "Imagen": "boxarchivo.png",
         "Link": "http://www.ladata.mx/s04c01/index.html",
         "Etiquetas": "Deporte, Box, Historia",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     },
     {
         "Titulo": "Terremotos en México, 100 años y contando",
         "Imagen": "sismosarchivo.png",
         "Link": "http://www.ladata.mx/s04c02/index.html",
         "Etiquetas": "Sismos, Historia ",
-        "Mes": "Septiembre"
+        "Mes": "Septiembre",
+        "Año": 2017
     }
 ]
