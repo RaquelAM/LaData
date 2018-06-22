@@ -25,6 +25,10 @@
     height: auto;
   }
   /*Home*/
+  #home{
+    min-height: 305px !important;
+    height: calc(100vh - 265px) !important;
+  }
   #ham, #pinta{
     position: relative !important;
     margin-top: 20px !important;
