@@ -259,13 +259,17 @@ footer{
 	background: #dfd6d7 !important;
 }
 .image-title{
-	color: white;
 	font-size: 16px;
-	background: #999a98;
+	color: #999a98;
+	font-family: 'Zilla Slab Highlight', cursive;
 }
 .img-info{
 	width: 100%;
 	margin: 15px 0;
+}
+.img-info2{
+	max-width: 50%;
+	margin: auto;
 }
 .image-txt{
 	font-size: 12px;
@@ -414,6 +418,12 @@ footer{
 	font-size: 22px;
 	color: #DA1549;
 	font-weight: normal;
+}
+.tallImg{
+	width: auto !important;
+	height: 50%;
+	max-height: 215px;
+	max-width: none !important
 }
 .col1{
 	font-family: lato;
