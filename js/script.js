@@ -241,12 +241,7 @@ $(document).ready(function(){
         $("#home").removeClass("open");
     });
  /**La Data Pinta**/
- /*$(".circlePinta").mouseover(function() {
-    $(this).find(".title").fadeIn();
-  })
-  .mouseout(function() {
-    $(this).find(".title").fadeOut();
-  });*/
+
   $("#cerrarPinta").on("click", function(){
     window.history.back();
   });
@@ -257,11 +252,50 @@ $(document).ready(function(){
           $(elem).css("top", top);
      });
   })
+
+  /*Buscador DataPinta*/
+  $("#pintaSearch").keypress(function(e) {
+    var max = $("#containerPintaSection").height() -350;
+    var arrayPinta = [];
+      if(e.which == 13) {
+        var search = $(this).val().toLowerCase();
+        if (search !== "") {
+          var searchWords = search.split(" ");
+          $.each(searchWords, function(index, value) {
+            $.each(dataPinta, function(i, val){
+              var words = val.Titulo.toLowerCase().concat(val.Etiquetas.toLowerCase());
+              var n = words.indexOf(value.toLowerCase());
+              if (n > 0) {
+                arrayPinta.push(i);
+              }
+            })
+          })
+        }
+        $(".containerPinta").empty();
+        if (arrayPinta.length == 0) {
+          ContDataPinta();
+        }else{
+        $.each(arrayPinta, function(i, value){
+          var top = max * Math.random();
+          $(".containerPinta").append('<div class="containerCircle">\
+            <a href="'+dataPinta[value].Link+'"><div class="circlePinta" style="background-image: url(img/pinta/'+dataPinta[value].Imagen+'); top:'+top+'px">\
+              <div class="title" >\
+                '+dataPinta[value].Titulo+'\
+              </div>\
+            </div></a>\
+          </div>')
+        })}
+      }
+  });
+  $("#containerFind img").on("click", function(){
+    //Obtengo arreglo de las palabras del input
+
+  });
+
 /**Quienes somos**/
   $("#myRange").val(1);
   $("#myRange").on("change", function(){
     var value = $(this).val();
-    console.log(value);
     if (value == 1) {
       $(".bios").hide();
       $(".dany").show();
@@ -349,16 +383,13 @@ $(document).ready(function(){
     	var newArray = data.filter(function (el) {
 		  return el.del == del;
 		});
-		console.log(newArray);
     var sortArray = newArray.sort(compare);
-    console.log(sortArray);
 		$.each(sortArray, function( index, value ) {
 		  $("#delCol").append("<option value='"+value.image+"'>"+value.name+"</option>")
 		});
     });
 
     $('#delCol').change(function(){
-    	console.log("la coloñaaaa");
     	var col = $(this).val();
     	$('#appendImg').find('img').remove().end();
 		$('#appendImg').prepend($('<img>',{class: 'imageCol', src:'../img/sismo/ley/colonias/'+col}))
@@ -367,7 +398,6 @@ $(document).ready(function(){
 
     /*Buscador Archivo*/
     var arrayIndexArchivo = [];
-    //console.log(dataArchivo);
     $("#containerFind img").on("click", function(){
       //Obtengo arreglo de las palabras del input
       var search = $("#containerFind input").val().toLowerCase();
@@ -394,7 +424,6 @@ $(document).ready(function(){
     /*Busqueda por Temas*/
     $("#contentTemas span").on("click", function(){
       var tema =  $(this).text().toLowerCase();
-      console.log(tema);
       $.each(dataArchivo, function(i, val){
         var words = val.Titulo.toLowerCase().concat(val.Etiquetas.toLowerCase());
         var n = words.indexOf(tema.toLowerCase());
@@ -421,7 +450,6 @@ function compare(a,b) {
 function resultSearch(){
   var link = window.location;
   var items = link.toString().split("?")[1].split(",");
-  console.log(items[0])
   if (items[0] == "") {
     $("#search").append("<h4>No se encontraron resultados</h4>")
   }else{
@@ -450,5 +478,19 @@ function archivoContent(year){
           </a>\
         </div>")
       }
+  });
+}
+/**Datos DataPinta**/
+function ContDataPinta(){
+  var max = $("#containerPintaSection").height() -350;
+  $.each(dataPinta, function(i, value){
+    var top = max * Math.random();
+    $(".containerPinta").append('<div class="containerCircle">\
+      <a href="'+value.Link+'"><div class="circlePinta" style="background-image: url(img/pinta/'+value.Imagen+'); top:'+top+'px">\
+        <div class="title" >\
+          '+value.Titulo+'\
+        </div>\
+      </div></a>\
+    </div>')
   });
 }

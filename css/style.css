@@ -228,12 +228,11 @@ header.home .row, footer.home, #home{
 .circlePinta{
 	width: 230px;
 	height: 230px;
-	border-radius: 50%;
 	margin: 45px 45px 85px;
 	position: absolute;
 	left: 0;
 	right: 0;
-	background: purple;
+  background-size: contain;
 }
 .circlePinta .title{
 	background: white;

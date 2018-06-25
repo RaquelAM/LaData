@@ -1,0 +1,28 @@
+dataPinta = [
+    {
+        "Titulo": "Título",
+        "Imagen": "img1.png",
+        "Link": "http://www.ladata.mx/",
+        "Etiquetas": "Palabra1, palabra2, Palabra3 "
+    },{
+        "Titulo": "Título2",
+        "Imagen": "img2.png",
+        "Link": "http://www.ladata.mx/",
+        "Etiquetas": "Palabra4, palabra5, Palabra6 "
+    },{
+        "Titulo": "Título3",
+        "Imagen": "img3.png",
+        "Link": "http://www.ladata.mx/",
+        "Etiquetas": "Palabra7, palabra8, Palabra9 "
+    },{
+        "Titulo": "Título4",
+        "Imagen": "img4.png",
+        "Link": "http://www.ladata.mx/",
+        "Etiquetas": "Palabra10, palabra11, Palabra12 "
+    },{
+        "Titulo": "Título5",
+        "Imagen": "img5.png",
+        "Link": "http://www.ladata.mx/",
+        "Etiquetas": "Palabra13, palabra14, Palabra14 "
+    }
+]
