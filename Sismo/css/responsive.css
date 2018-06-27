@@ -53,4 +53,16 @@
   #banner-container{
     min-height: 715px;
   }
+  #sliderEdificios .flex{
+    display: block !important;
+  }
+  .lacustre{
+    height: 250px;
+  }
+  .col1{
+    font-size: 12px;
+  }
+  .col2{
+    font-size: 17px;
+  }
 }

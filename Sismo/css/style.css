@@ -439,6 +439,12 @@ footer{
 .flex{
 	display: flex;
 }
+#sliderEdificios .flex .col-sm-7{
+	float: right !important;
+}
+#sliderEdificios .flex .col-sm-5{
+	float: right !important;
+}
 #all{
 	text-align: center;
 }
