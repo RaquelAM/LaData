@@ -23,19 +23,19 @@ $(document).ready(function(){
         </div>\
         <div class="reciente">\
           <div>\
-            <a href="#">Terremotos en México, 100 años y contando</a>\
+            <a href="Sismo/index.html">19/s ¿Qué nos pasó?</a>\
           </div>\
           <div>\
-            <a href="#">La data del boxeo</a>\
+            <a href="http://www.ladata.mx/chiras_pelas">Chiras Pelas</a>\
           </div>\
           <div>\
-            <a href="#">Y los niños, ¿quién los cuida?</a>\
+            <a href="http://www.ladata.mx/violenciamujeres">Violencia Mujeres</a>\
           </div>\
           <div>\
-            <a href="#">El CIG, el otro jugador de la contienda presi...</a>\
+            <a href="http://www.ladata.mx/s04c02/index.html">Terremotos en México, 100 años y contando</a>\
           </div>\
           <div>\
-            <a href="#">Nuevo sistema penal, viejos vicios</a>\
+            <a href="http://www.ladata.mx/s04c01/index.html">La Data del Box</a>\
           </div>\
         </div>\
         <div class="archivo" style="display: none;">\
@@ -128,19 +128,19 @@ $(document).ready(function(){
         </div>\
         <div class="reciente">\
           <div>\
-            <a href="#">Terremotos en México, 100 años y contando</a>\
+            <a href="index.html">19/s ¿Qué nos pasó?</a>\
           </div>\
           <div>\
-            <a href="#">La data del boxeo</a>\
+            <a href="http://www.ladata.mx/chiras_pelas">Chiras Pelas</a>\
           </div>\
           <div>\
-            <a href="#">Y los niños, ¿quién los cuida?</a>\
+            <a href="http://www.ladata.mx/violenciamujeres">Violencia Mujeres</a>\
           </div>\
           <div>\
-            <a href="#">El CIG, el otro jugador de la contienda presi...</a>\
+            <a href="http://www.ladata.mx/s04c02/index.html">Terremotos en México, 100 años y contando</a>\
           </div>\
           <div>\
-            <a href="#">Nuevo sistema penal, viejos vicios</a>\
+            <a href="http://www.ladata.mx/s04c01/index.html">La Data del Box</a>\
           </div>\
         </div>\
         <div class="archivo" style="display: none;">\
