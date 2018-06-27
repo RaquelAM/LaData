@@ -240,6 +240,19 @@ $(document).ready(function(){
         $("footer").removeClass("open");
         $("#home").removeClass("open");
     });
+
+/**Footer**/
+$("footer").append('<div class="cintainer mt-20">\
+  <div class="col-sm-4 text-center">\
+    <a href="quienes.html">¿Quiénes somos?</a>\
+  </div>\
+  <div class="col-sm-4 text-center">\
+    <a href="laData.html">¿Qué es La Data?</a>\
+  </div>\
+  <div class="col-sm-4 text-center">\
+    <a href="colaboraciones.html">Colaboraciones</a>\
+  </div>\
+</div>')
  /**La Data Pinta**/
 
   $("#cerrarPinta").on("click", function(){
