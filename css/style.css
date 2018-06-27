@@ -397,6 +397,14 @@ header.home .row, footer.home, #home{
 	padding: 5px 10px;
 }
 
+/**laData**/
+.data{
+	color: black;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 45px;
+}
+
 
 /**Footer**/
 footer, header .row, #home{
