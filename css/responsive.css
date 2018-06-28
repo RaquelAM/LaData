@@ -41,10 +41,13 @@
     max-height: 250px;
   }
   .arrowLeft{
-    left: 1%;
+    left: 2%;
   }
   .arrowRight{
-    right: 1%;
+    right: 2%;
+  }
+  .arrowLeft img, .arrowRight img{
+    height: 50px;
   }
   .home .col-8{
     padding-left: 0;
