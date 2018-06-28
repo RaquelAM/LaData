@@ -26,10 +26,10 @@ $(document).ready(function(){
             <a href="Sismo/index.html">19/s ¿Qué nos pasó?</a>\
           </div>\
           <div>\
-            <a href="http://www.ladata.mx/chiras_pelas">Chiras Pelas</a>\
+            <a href="http://www.ladata.mx/chiras_pelas">Chiras Pelas Calacas Flacas</a>\
           </div>\
           <div>\
-            <a href="http://www.ladata.mx/violenciamujeres">Violencia Mujeres</a>\
+            <a href="http://www.ladata.mx/violenciamujeres">Visualizar la violencia contra las mujeres</a>\
           </div>\
           <div>\
             <a href="http://www.ladata.mx/s04c02/index.html">Terremotos en México, 100 años y contando</a>\
@@ -131,10 +131,10 @@ $(document).ready(function(){
             <a href="index.html">19/s ¿Qué nos pasó?</a>\
           </div>\
           <div>\
-            <a href="http://www.ladata.mx/chiras_pelas">Chiras Pelas</a>\
+            <a href="http://www.ladata.mx/chiras_pelas">Chiras Pelas Calacas Flacas</a>\
           </div>\
           <div>\
-            <a href="http://www.ladata.mx/violenciamujeres">Violencia Mujeres</a>\
+            <a href="http://www.ladata.mx/violenciamujeres">Visualizar la violencia contra las mujeres</a>\
           </div>\
           <div>\
             <a href="http://www.ladata.mx/s04c02/index.html">Terremotos en México, 100 años y contando</a>\

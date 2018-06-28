@@ -164,12 +164,16 @@ header.sec{
 }
 .text_white{
 	background: white;
-    height: 40px !important;
-    width: 170px!important;
-    margin: 43% auto;
-    border-radius: 20px;
-    text-align: center;
-    line-height: 40px;
+	height: 40px !important;
+	display: inline-block;
+	width: auto !important;
+	padding: 0 10px;
+	margin: calc(50% - 20px) auto;
+	margin: -webkit-calc(50% - 20px) auto;
+	margin: -moz-calc(50% - 20px) auto;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
 }
 /**Menu**/
 
