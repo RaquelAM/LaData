@@ -36,13 +36,23 @@
     width: 100%;
     height: auto;
   }
+  #circle{
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .arrowLeft{
+    left: 1%;
+  }
+  .arrowRight{
+    right: 1%;
+  }
   .home .col-8{
     padding-left: 0;
   }
   .col-8{
     -ms-flex: 0 0 64.666667%;
     flex: 0 0 64.666667%;
-    max-width: 64.666667%;  
+    max-width: 64.666667%;
   }
   .home .col-2:last-child{
     padding-left: 0px;
