@@ -46,10 +46,12 @@
   </div>
     <section id="home">
       <div class="arrowLeft">
-        <img src="img/flechaizquierda.svg">
+        <img src="img/flechaizquierda.svg" class="gray">
+        <img src="img/flechaizquierda_black.svg" class="black">
       </div>
       <div class="arrowRight">
-        <img src="img/flechaderecha.svg">
+        <img src="img/flechaderecha.svg" class="gray">
+        <img src="img/flechaderecha_black.svg" class="black">
       </div>
       <div id="circle">
         <div id="sliderHome">
@@ -72,7 +74,7 @@
       <div>
     </section>
     <footer class="home">
-    
+
     </footer>
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -99,20 +101,41 @@
         }]
       });
 
+      $(".arrowRight").find("img.black").hide();
+      $(".arrowLeft").find("img.black").hide();
+
     	$("#sliderHome").mousemove(function(e){
 
             if (e.pageX > 750) {
               //$("#sliderHome").slick("slickNext");
               console.log(e.pageX);
               console.log("derecha");
-              $(".arrowRight").find("img").hide();
+              $(".arrowRight").find("img.gray").hide();
+              $(".arrowLeft").find("img.gray").show();
+              $(".arrowRight").find("img.black").show();
+              $(".arrowLeft").find("img.black").hide();
             }else{
               //$("#sliderHome").slick("slickPrev");
               console.log(e.pageX);
               console.log("izq");
-              $(".arrowLeft").find("img").hide();
+              $(".arrowLeft").find("img.gray").hide();
+              $(".arrowRight").find("img.gray").show();
+              $(".arrowRight").find("img.black").hide();
+              $(".arrowLeft").find("img.black").show();
             }
      	});
+      $("#sliderHome").mouseleave(function(e){
+        $(".arrowRight").find("img.black").hide();
+        $(".arrowLeft").find("img.black").hide();
+        $(".arrowLeft").find("img.gray").show()
+        $(".arrowRight").find("img.gray").show();
+     	});
+      $(".arrowRight").on("click", function(){
+        $('#sliderHome').slick("slickNext");
+      });
+      $(".arrowLeft").on("click", function(){
+        $('#sliderHome').slick("slickPrev");
+      });
     </script>
   </body>
 </html>

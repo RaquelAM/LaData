@@ -143,6 +143,7 @@ header.sec{
 }
 .arrowLeft img, .arrowRight img{
 	height: 80px;
+	cursor: pointer;
 }
 .bkgrnd-home{
 	background-position: center;
