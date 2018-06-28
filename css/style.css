@@ -131,6 +131,19 @@ header.sec{
   margin: auto;
   overflow: hidden;
 }
+.arrowLeft{
+	position: absolute;
+    top: 45%;
+    left: 5%;
+}
+.arrowRight{
+	position: absolute;
+    top: 45%;
+    right: 5%;
+}
+.arrowLeft img, .arrowRight img{
+	height: 80px;
+}
 .bkgrnd-home{
 	background-position: center;
 	background-repeat: no-repeat;

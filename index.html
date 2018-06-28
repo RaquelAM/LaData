@@ -45,6 +45,12 @@
 
   </div>
     <section id="home">
+      <div class="arrowLeft">
+        <img src="img/flechaizquierda.svg">
+      </div>
+      <div class="arrowRight">
+        <img src="img/flechaderecha.svg">
+      </div>
       <div id="circle">
         <div id="sliderHome">
           <div style="background-image: url('img/archivo/portadasismos19s.png')" class="bkgrnd-home">
@@ -93,11 +99,18 @@
         }]
       });
 
-    	$("#sliderHome").mouseleave(function(e){
-            if (e.pageX > 250) {
-              $("#sliderHome").slick("slickNext");
+    	$("#sliderHome").mousemove(function(e){
+
+            if (e.pageX > 750) {
+              //$("#sliderHome").slick("slickNext");
+              console.log(e.pageX);
+              console.log("derecha");
+              $(".arrowRight").find("img").hide();
             }else{
-              $("#sliderHome").slick("slickPrev");
+              //$("#sliderHome").slick("slickPrev");
+              console.log(e.pageX);
+              console.log("izq");
+              $(".arrowLeft").find("img").hide();
             }
      	});
     </script>
