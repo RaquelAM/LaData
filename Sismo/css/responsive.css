@@ -68,4 +68,13 @@
   #infoMap{
     top: 30px;
   }
+  #tipo {
+  	margin-top: -25px;
+  }
+  .slick-next {
+    right: -15px;
+  }
+  .slick-prev {
+    left: -15px;
+  }
 }

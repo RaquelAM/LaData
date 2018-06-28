@@ -346,18 +346,13 @@ footer{
 	border: 1px dotted #d63f55;
 	width: 100%;
 }
-#tipo span{
-	font-size: 18px;
-	font-weight: bold;
+#tipo {
+	margin-top: 15px;
 }
 #tipo img{
 	display: inline-block;
-	width: 30px;
-    margin: 5px 10px 10px;
-}
-#tipo label{
-	display: inline-block;
-	font-weight: normal !important;
+	width: 100%;
+  margin: 10px 10px 10px;
 }
 .lacustre{
 	background-image: url(../../img/sismo/ley/piso_lacustre.svg);
