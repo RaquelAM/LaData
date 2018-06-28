@@ -407,7 +407,9 @@ $("footer").append('<div class="cintainer mt-20">\
     	$('#appendImg').find('img').remove().end();
 		$('#appendImg').prepend($('<img>',{class: 'imageCol', src:'../img/sismo/ley/colonias/'+col}))
     });
-
+    $("#appendImg").find("p").on("click", function(){
+        $("#appendImg").find("img").remove();
+    });
 
     /*Buscador Archivo*/
     var arrayIndexArchivo = [];

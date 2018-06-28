@@ -459,3 +459,15 @@ footer{
 #delegacion.active, #suelo.active{
 	color: #DA1549;
 }
+#appendImg{
+	position: relative;
+	overflow: hidden;
+}
+#appendImg p{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #da1549;
+	font-weight: bold;
+	cursor: pointer;
+}

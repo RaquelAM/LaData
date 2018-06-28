@@ -65,4 +65,7 @@
   .col2{
     font-size: 17px;
   }
+  #infoMap{
+    top: 30px;
+  }
 }
