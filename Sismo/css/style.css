@@ -466,3 +466,6 @@ footer{
 	font-weight: bold;
 	cursor: pointer;
 }
+.optSocial img{
+	width: 100%;
+}
