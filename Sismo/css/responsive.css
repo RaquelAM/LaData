@@ -82,4 +82,7 @@
     bottom: 90px;
     width: 120px;
   }
+  .optSocial img{
+    width: 100%;
+  }
 }
