@@ -290,8 +290,14 @@ footer{
 .bkgrnd-white{
 	background: #FFFFFF;
 }
+.bkgrnd-greenSection{
+	background: #aca226 !important;
+}
 .bkgrnd-pink2{
 	background: #da1549 !important;
+}
+.bkgrnd-pinkSection{
+	background: #e3839f !important;
 }
 
 #scrollContainer{
