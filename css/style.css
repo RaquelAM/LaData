@@ -351,12 +351,12 @@ header.home .row, footer.home, #home{
 }
 .col{
 	display: inline-block;
-	height: 30px;
+	height: 35px;
 	width: auto;
 	margin: 20px;
 }
 .uni{
-	height: 45px !important;
+	height: 50px !important;
 }
 /**Recomienda**/
 #recomiendaSec{
