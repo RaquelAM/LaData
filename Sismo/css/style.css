@@ -112,6 +112,18 @@ a:hover{
 #banner .banner6{
 	background-image: url(../../img/sismo/banner/06.JPG);
 }
+#banner .banner7{
+	background-image: url(../../img/sismo/banner/multifamiliaropt.JPG);
+}
+#banner .banner8{
+	background-image: url(../../img/sismo/banner/rebsamen241opt.JPG);
+}
+#banner .banner9{
+	background-image: url(../../img/sismo/banner/tecopt.JPG);
+}
+#banner .banner10{
+	background-image: url(../../img/sismo/banner/zapataopt.JPG);
+}
 #infoBanner-container{
 	position: absolute;
 	top: 0;
