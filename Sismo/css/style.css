@@ -349,6 +349,12 @@ footer{
 	right: 0;
 	width: 300px;
 }
+.img-simbols{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	width: 150px;
+}
 .select{
 	color: black;
     border-radius: 10px;

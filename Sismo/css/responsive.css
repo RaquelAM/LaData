@@ -77,4 +77,9 @@
   .slick-prev {
     left: -15px;
   }
+  .img-simbols {
+    position: absolute;
+    bottom: 90px;
+    width: 120px;
+  }
 }
