@@ -250,7 +250,7 @@ $("footer").append('<div class="cintainer mt-20">\
     <a href="laData.html">¿Qué es La Data?</a>\
   </div>\
   <div class="col-sm-4 text-center">\
-    <a href="colaboraciones.html">Colaboraciones</a>\
+    <a href="colaboraciones.html">Clientes y colaboradores</a>\
   </div>\
 </div>')
  /**La Data Pinta**/
