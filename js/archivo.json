@@ -126,5 +126,21 @@ dataArchivo = [
         "Etiquetas": "Sismos, Historia ",
         "Mes": "Septiembre",
         "Año": 2017
+    },
+    {
+        "Titulo": "Chiras Pelas Calacas Flacas",
+        "Imagen": "chiraspelasarchivo.png",
+        "Link": "http://www.ladata.mx/chiras_pelas/",
+        "Etiquetas": "",
+        "Mes": "Septiembre",
+        "Año": 2017
+    },
+    {
+        "Titulo": "19/s ¿Qué nos pasó?",
+        "Imagen": "archivosismos19s.png",
+        "Link": "Sismo/index.html",
+        "Etiquetas": "sismo, terremoto",
+        "Mes": "Septiembre",
+        "Año": 2017
     }
 ]
