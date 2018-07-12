@@ -423,12 +423,13 @@ $("footer").append('<div class="cintainer mt-20">\
         $.each(dataArchivo, function(i, val){
           var words = val.Titulo.toLowerCase().concat(val.Etiquetas.toLowerCase());
           var n = words.indexOf(value.toLowerCase());
-          if (n > 0) {
+          if (n >= 0) {
             arrayIndexArchivo.push(i);
           }
         })
       })
       var stringArray = arrayIndexArchivo.toString();
+      console.log(stringArray);
       var domain = document.domain;
       var url = "http://"+domain + "/busqueda.html?"+stringArray;
       window.location.replace(url)
@@ -442,7 +443,7 @@ $("footer").append('<div class="cintainer mt-20">\
       $.each(dataArchivo, function(i, val){
         var words = val.Titulo.toLowerCase().concat(val.Etiquetas.toLowerCase());
         var n = words.indexOf(tema.toLowerCase());
-        if (n > 0) {
+        if (n >= 0) {
           arrayIndexArchivo.push(i);
         }
       })
