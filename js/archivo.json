@@ -142,5 +142,13 @@ dataArchivo = [
         "Etiquetas": "sismo, terremoto",
         "Mes": "Septiembre",
         "Año": 2017
+    },
+    {
+        "Titulo": "Elecciones en México 2018, ¿todos votamos?",
+        "Imagen": "archivo.png",
+        "Link": "http://www.ladata.mx/minorias/",
+        "Etiquetas": "voto, votaciones",
+        "Mes": "Septiembre",
+        "Año": 2017
     }
 ]
