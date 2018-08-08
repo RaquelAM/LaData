@@ -42,6 +42,9 @@ $(document).ready(function(){
           <a href="2017.html">\
           <span>2017</span>\
           </a>\
+          <a href="2018.html">\
+          &nbsp &nbsp<span>2018</span>\
+          </a>\
         </div>\
         <hr>\
         <div id="temas">\
@@ -50,44 +53,22 @@ $(document).ready(function(){
           </div>\
           <div id="scrollTemas">\
             <div id="contentTemas">\
-              <span>Mujeres</span>\
-              <span>Violencia</span>\
-              <span>Genero</span>\
-              <span>Desigualdad</span>\
-              <span>UNAM</span>\
-              <span>Marihuana</span>\
-              <span>Economia</span>\
-              <span>Corrupcion</span>\
-              <span>Gobierno</span>\
-              <span>Aborto</span>\
-              <span>Derechos</span>\
-              <span>Humanos</span>\
-              <span>Warhol</span>\
+              <span>Indígenas</span>\
               <span>Arte</span>\
-              <span>Ludico</span>\
-              <span>Periodismo</span>\
-              <span>Activismo</span>\
-              <span>Instituciones</span>\
-              <span>Porno</span>\
-              <span>Seguridad</span>\
-              <span>Comunitario</span>\
-              <span>Pueblos</span>\
-              <span>Literatura</span>\
-              <span>Rulfo</span>\
-              <span>Migracion</span>\
-              <span>Centroamerica</span>\
-              <span>Deportaciones</span>\
-              <span>Penal</span>\
-              <span>Indigenas</span>\
-              <span>Democracia</span>\
-              <span>Elecciones</span>\
-              <span>Autonomia</span>\
-              <span>Niños</span>\
-              <span>Guarderias</span>\
+              <span>DDHH</span>\
+              <span>Género</span>\
               <span>Deporte</span>\
-              <span>Box</span>\
-              <span>Historia</span>\
-              <span>Sismos</span>\
+              <span>Gobierno</span>\
+              <span>Economía</span>\
+              <span>Seguridad</span>\
+              <span>Desarrollo social</span>\
+              <span>Latinoamérica</span>\
+              <span>Política</span>\
+              <span>Elecciones</span>\
+              <span>Salud</span>\
+              <span>Corrupción</span>\
+              <span>Otros</span>\
+              <span>Justicia</span>\
             </div>\
           </div>\
         </div>\
@@ -147,6 +128,9 @@ $(document).ready(function(){
           <a href="../2017.html">\
           <span>2017</span>\
           </a>\
+          <a href="../2018.html">\
+          &nbsp &nbsp<span>2018</span>\
+          </a>\
         </div>\
         <hr>\
         <div id="temas">\
@@ -155,44 +139,22 @@ $(document).ready(function(){
           </div>\
           <div id="scrollTemas">\
             <div id="contentTemas">\
-              <span>Mujeres</span>\
-              <span>Violencia</span>\
-              <span>Genero</span>\
-              <span>Desigualdad</span>\
-              <span>UNAM</span>\
-              <span>Marihuana</span>\
-              <span>Economia</span>\
-              <span>Corrupcion</span>\
-              <span>Gobierno</span>\
-              <span>Aborto</span>\
-              <span>Derechos</span>\
-              <span>Humanos</span>\
-              <span>Warhol</span>\
+              <span>Indígenas</span>\
               <span>Arte</span>\
-              <span>Ludico</span>\
-              <span>Periodismo</span>\
-              <span>Activismo</span>\
-              <span>Instituciones</span>\
-              <span>Porno</span>\
-              <span>Seguridad</span>\
-              <span>Comunitario</span>\
-              <span>Pueblos</span>\
-              <span>Literatura</span>\
-              <span>Rulfo</span>\
-              <span>Migracion</span>\
-              <span>Centroamerica</span>\
-              <span>Deportaciones</span>\
-              <span>Penal</span>\
-              <span>Indigenas</span>\
-              <span>Democracia</span>\
-              <span>Elecciones</span>\
-              <span>Autonomia</span>\
-              <span>Niños</span>\
-              <span>Guarderias</span>\
+              <span>DDHH</span>\
+              <span>Género</span>\
               <span>Deporte</span>\
-              <span>Box</span>\
-              <span>Historia</span>\
-              <span>Sismos</span>\
+              <span>Gobierno</span>\
+              <span>Economía</span>\
+              <span>Seguridad</span>\
+              <span>Desarrollo social</span>\
+              <span>Latinoamérica</span>\
+              <span>Política</span>\
+              <span>Elecciones</span>\
+              <span>Salud</span>\
+              <span>Corrupción</span>\
+              <span>Otros</span>\
+              <span>Justicia</span>\
             </div>\
           </div>\
         </div>\

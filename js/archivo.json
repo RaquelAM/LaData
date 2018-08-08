@@ -1,9 +1,9 @@
 dataArchivo = [
     {
-        "Titulo": "Las jerarquiaz de la violencia",
+        "Titulo": "Las jerarquias de la violencia",
         "Imagen": "Protocolounamarchivo.png",
         "Link": "http://www.ladata.mx/s01c01/index.html",
-        "Etiquetas": "Mujeres, Violencia, Genero, Desigualdad,UNAM ",
+        "Etiquetas": "Genero, Seguridad",
         "Mes": "Agosto",
         "Año": 2017
     },
@@ -11,15 +11,15 @@ dataArchivo = [
         "Titulo": "El nuevo oro es verde: las farmaceuticas tras la marihuana",
         "Imagen": "marihuanamedicinalarchivo.png",
         "Link": "http://www.ladata.mx/s01c02/index.html",
-        "Etiquetas": "Marihuana, Economia",
+        "Etiquetas": "Salud, economia",
         "Mes": "Agosto",
         "Año": 2017
     },
     {
-        "Titulo": "¿Que se puede comprar con 60mil millones de pesos?",
+        "Titulo": "¿Que se puede comprar con 60 mil millones de pesos?",
         "Imagen": "duartearchivo.png",
         "Link": "http://www.ladata.mx/s01c03/index.html",
-        "Etiquetas": "Corrupcion, Gobierno",
+        "Etiquetas": "Gobierno, Politica, Corrupcion",
         "Mes": "Agosto",
         "Año": 2017
     },
@@ -27,7 +27,7 @@ dataArchivo = [
         "Titulo": "Que se haga mi voluntad... !Y no la tuya!",
         "Imagen": "yodecidoarchivo.png",
         "Link": "http://www.ladata.mx/s01c04/index.html",
-        "Etiquetas": "Aborto, Derechos, Humanos, Mujeres",
+        "Etiquetas": "Genero Salud, Desarrollo Social",
         "Mes": "Agosto",
         "Año": 2017
     },
@@ -43,7 +43,7 @@ dataArchivo = [
         "Titulo": "Agresiones al alza, mecanismo en picada",
         "Imagen": "Mecanismoarchivo.png",
         "Link": "http://www.ladata.mx/s02c01/index.html",
-        "Etiquetas": "Periodismo, Activismo, Instituciones",
+        "Etiquetas": "Seguridad, DDHH, Gobieno",
         "Mes": "Agosto",
         "Año": 2017
     },
@@ -51,7 +51,7 @@ dataArchivo = [
         "Titulo": "Mexicanos al grito de Porno",
         "Imagen": "pornoarchivo.png",
         "Link": "http://www.ladata.mx/s02c02/index.html",
-        "Etiquetas": "Porno, Ludico",
+        "Etiquetas": "Otros",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -59,7 +59,7 @@ dataArchivo = [
         "Titulo": "Policiaas Comunitarios",
         "Imagen": "PoliciaComunitariaarchivo.png",
         "Link": "http://www.ladata.mx/s02c03/index.html",
-        "Etiquetas": " Seguridad, Comunitario, Pueblos,  Autonomia ",
+        "Etiquetas": " Seguridad, Indigenas",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -67,7 +67,7 @@ dataArchivo = [
         "Titulo": "Pedro Paramo, una piedra en el desierto",
         "Imagen": "PedroParamoarchivo.png",
         "Link": "http://www.ladata.mx/s02c04/index.html",
-        "Etiquetas": "Literatura, Rulfo",
+        "Etiquetas": "Arte",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -75,7 +75,7 @@ dataArchivo = [
         "Titulo": "Gastos de campaña: inversion en democracia o gasto a fondo perdido",
         "Imagen": "PresupuestoElectoralarchivo.png",
         "Link": "http://www.ladata.mx/s02c05/index.html",
-        "Etiquetas": "Elecciones, Gobierno",
+        "Etiquetas": "Politica, Gobierno, elecciones",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -83,7 +83,7 @@ dataArchivo = [
         "Titulo": "La trampa entre fronteras: deportados centroamericanos ",
         "Imagen": "migrantesarchivo.png",
         "Link": "http://www.ladata.mx/s03c01/index.html",
-        "Etiquetas": "Migracion, Centroamerica, Deportaciones",
+        "Etiquetas": "Latinoamerica",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -91,7 +91,7 @@ dataArchivo = [
         "Titulo": "Nuevo sistema penal, viejos vicios",
         "Imagen": "prisonarchivo.png",
         "Link": "http://www.ladata.mx/s03c02/index.html",
-        "Etiquetas": "Penal, Gobierno ",
+        "Etiquetas": "Justicia, Gobierno",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -99,7 +99,7 @@ dataArchivo = [
         "Titulo": "El CIG, el otro jugador en la contienda presidencial",
         "Imagen": "CNIarchivo.png",
         "Link": "http://www.ladata.mx/s03c03/index.html",
-        "Etiquetas": "Indigenas, Democracia, Elecciones, Autonomia ",
+        "Etiquetas": "Indigenas, Elecciones, Politica",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -107,7 +107,7 @@ dataArchivo = [
         "Titulo": "Y a los niños, ¿Quien los cuida?",
         "Imagen": "ninosarchivo.png",
         "Link": "http://www.ladata.mx/s03c04/index.html",
-        "Etiquetas": "Niños, Guarderias ",
+        "Etiquetas": "Salud, Economia",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -115,7 +115,7 @@ dataArchivo = [
         "Titulo": "La Data del Boxeo",
         "Imagen": "boxarchivo.png",
         "Link": "http://www.ladata.mx/s04c01/index.html",
-        "Etiquetas": "Deporte, Box, Historia",
+        "Etiquetas": "Deporte",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -123,7 +123,7 @@ dataArchivo = [
         "Titulo": "Terremotos en México, 100 años y contando",
         "Imagen": "sismosarchivo.png",
         "Link": "http://www.ladata.mx/s04c02/index.html",
-        "Etiquetas": "Sismos, Historia ",
+        "Etiquetas": "Otros",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -133,7 +133,7 @@ dataArchivo = [
         "Link": "http://www.ladata.mx/chiras_pelas/",
         "Etiquetas": "",
         "Mes": "Septiembre",
-        "Año": 2017
+        "Año": 2018
     },
     {
         "Titulo": "19/s ¿Qué nos pasó?",
@@ -141,7 +141,7 @@ dataArchivo = [
         "Link": "Sismo/index.html",
         "Etiquetas": "sismo, terremoto",
         "Mes": "Septiembre",
-        "Año": 2017
+        "Año": 2018
     },
     {
         "Titulo": "Elecciones en México 2018, ¿todos votamos?",
@@ -149,6 +149,14 @@ dataArchivo = [
         "Link": "http://www.ladata.mx/minorias/",
         "Etiquetas": "voto, votaciones",
         "Mes": "Septiembre",
-        "Año": 2017
+        "Año": 2018
+    },
+    {
+        "Titulo": "Visualizar la violencia contra las mujeres",
+        "Imagen": "archivo.png",
+        "Link": "http://www.ladata.mx/violenciamujeres/",
+        "Etiquetas": "violencia, mujeres",
+        "Mes": "Septiembre",
+        "Año": 2018
     }
 ]
