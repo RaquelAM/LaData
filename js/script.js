@@ -101,9 +101,9 @@ $(document).ready(function(){
         </a>\
         <hr>\
         <div id="social">\
-          <img src="img/facebook.svg">\
-          <img src="img/instagram.svg">\
-          <img src="img/twitter.svg">\
+          <a href="https://www.facebook.com/ladatamx/?ref=bookmarks" target="_blank"><img src="img/facebook.svg"></a>\
+          <a href="https://www.instagram.com/ladatamx/?hl=es-la" target="_blank"><img src="img/instagram.svg"></a>\
+          <a href="https://twitter.com/ladatamx?lang=es" target="_blank"><img src="img/twitter.svg"></a>\
         </div>\
       </div>')
     }else{
@@ -206,9 +206,9 @@ $(document).ready(function(){
         </a>\
         <hr>\
         <div id="social">\
-          <img src="../img/facebook.svg">\
-          <img src="../img/instagram.svg">\
-          <img src="../img/twitter.svg">\
+          <a href="https://www.facebook.com/ladatamx/?ref=bookmarks" target="_blank"><img src="../img/facebook.svg"></a>\
+          <a href="https://www.instagram.com/ladatamx/?hl=es-la" target="_blank"><img src="../img/instagram.svg"></a>\
+          <a href="https://twitter.com/ladatamx?lang=es" target="_blank"><img src="../img/twitter.svg"></a>\
         </div>\
       </div>')
     }
