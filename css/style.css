@@ -373,6 +373,7 @@ header.home .row, footer.home, #home{
 	width: 100%;
 	height: 200px;
 	background: #cec9c9;
+	background-size: cover;
 }
 .textRec{
 	background: black;
