@@ -25,9 +25,9 @@
     height: auto;
   }
   /*Home*/
-  #home{
+  #home, #pintaSection{
     min-height: 305px !important;
-    height: calc(100vh - 265px) !important;
+    height: calc(100vh - 270px) !important;
   }
   #ham, #pinta{
     position: relative !important;
