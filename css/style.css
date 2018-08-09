@@ -210,9 +210,9 @@ header.home .row, footer.home, #home{
 }
 #pintaSection{
 	min-height: 400px;
-	height: -webkit-calc(100vh - 250px);
-	height: -moz-calc(100vh - 250px);
-	height: calc(100vh - 250px);
+	height: -webkit-calc(100vh - 235px);
+	height: -moz-calc(100vh - 235px);
+	height: calc(100vh - 235px);
 	width: 100%;
 	overflow-x: scroll;
 	overflow-y: hidden;
