@@ -259,7 +259,7 @@ header.home .row, footer.home, #home{
   margin: 41% auto;
   border-radius: 20px;
   text-align: center;
-  line-height: 40px;
+  font-size: 12px;
 	opacity: 0;
 	-webkit-transition: all 1.5s ease-out;
     -moz-transition: all 1.5s ease-out;
