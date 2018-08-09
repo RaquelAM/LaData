@@ -153,7 +153,7 @@ dataArchivo = [
     },
     {
         "Titulo": "Visualizar la violencia contra las mujeres",
-        "Imagen": "archivo.png",
+        "Imagen": "violenciamujeres.png",
         "Link": "http://www.ladata.mx/violenciamujeres/",
         "Etiquetas": "violencia, mujeres",
         "Mes": "Septiembre",
