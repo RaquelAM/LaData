@@ -2,17 +2,17 @@ dataPinta = [
     {
         "Titulo": "Abre bien los ojos, esto es kubrick",
         "Imagen": "kubrick.png",
-        "Link": "http://www.ladata.mx/",
+        "Link": "http://www.ladata.mx/ladata_pinta/2018/07/26/abre-bien-los-ojos-esto-es-kubrick",
         "Etiquetas": "kubrick, naraja mecanica, odisea 2001, cine, lolita, cinefilo, stanley, Arte"
     },{
         "Titulo": "Miedo, el otro contendiente en la elección de 2018",
         "Imagen": "agresionescandidatos.png",
-        "Link": "http://www.ladata.mx/",
+        "Link": "http://www.ladata.mx/ladata_pinta/2018/08/02/miedo-el-otro-contendiente-en-la-eleccion-de-2018/",
         "Etiquetas": "candidatos, canddato, agesiones, amenazas, asesinato, elecciones 2018, democracia,Seguridad, Gobierno, Eleccines, Politica"
     },{
         "Titulo": "Dos sexenios de militarización y la violencia aumenta",
         "Imagen": "sexeniosmilitarizacion.png",
-        "Link": "http://www.ladata.mx/",
+        "Link": "http://www.ladata.mx/ladata_pinta/2018/08/01/dos-sexenios-de-militarizacion-y-la-violencia-aumenta/",
         "Etiquetas": "violencia, homicidios, muertos, Calderon, EPN, narcotrafico, guerra, narco, militarizacion,Seguridad, Gobierno "
     }
 ]
