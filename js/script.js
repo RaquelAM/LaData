@@ -271,28 +271,25 @@ $("footer").append('<div class="cintainer mt-20">\
   $("#myRange").val(1);
   $("#myRange").on("change", function(){
     var value = $(this).val();
-    if (value == 1) {
+    if (value == 5) {
       $(".bios").hide();
       $(".dany").show();
-    }else if (value > 13 && value < 16) {
+    }else if (value > 15 && value < 18) {
       $(".bios").hide();
-      $(".emma").show();
+      $(".carlos").show();
     }else if (value > 27 && value < 31) {
       $(".bios").hide();
       $(".gis").show();
     }else if (value > 42 && value < 46) {
       $(".bios").hide();
-      $(".irving").show();
+      $(".erandi").show();
     }else if (value > 56 && value < 60) {
       $(".bios").hide();
-      $(".erandi").show();
+      $(".oliver").show();
     }else if (value > 70 && value < 74) {
       $(".bios").hide();
-      $(".oliver").show();
-    }else if (value > 84 && value < 88) {
-      $(".bios").hide();
       $(".chio").show();
-    }else if (value == 100) {
+    }else if (value > 84 && value < 88) {
       $(".bios").hide();
       $(".wil").show();
     }

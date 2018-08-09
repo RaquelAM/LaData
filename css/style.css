@@ -292,7 +292,8 @@ header.home .row, footer.home, #home{
 .slider {
     -webkit-appearance: none;
 		-moz-appearance: none;
-    width: 100%;
+		width: 90% !important;
+    margin: auto !important;
     height: 1px;
     background: #000;
     outline: none;
