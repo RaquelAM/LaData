@@ -210,9 +210,9 @@ header.home .row, footer.home, #home{
 }
 #pintaSection{
 	min-height: 400px;
-	height: -webkit-calc(100vh - 155px);
-	height: -moz-calc(100vh - 155px);
-	height: calc(100vh - 155px);
+	height: -webkit-calc(100vh - 250px);
+	height: -moz-calc(100vh - 250px);
+	height: calc(100vh - 250px);
 	width: 100%;
 	overflow-x: scroll;
 	overflow-y: hidden;
@@ -255,20 +255,16 @@ header.home .row, footer.home, #home{
 .circlePinta .title{
 	background: white;
   height: 40px !important;
-  width: 170px!important;
+  width: 190px!important;
   margin: 41% auto;
   border-radius: 20px;
   text-align: center;
   font-size: 12px;
-	opacity: 0;
 	-webkit-transition: all 1.5s ease-out;
     -moz-transition: all 1.5s ease-out;
     -ms-transition: all 1.5s ease-out;
     -o-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
-}
-.circlePinta:hover .title{
-	opacity: 1;
 }
 
 /**Quienes somos**/
