@@ -3,7 +3,7 @@ dataArchivo = [
         "Titulo": "Las jerarquias de la violencia",
         "Imagen": "Protocolounamarchivo.png",
         "Link": "http://www.ladata.mx/s01c01/index.html",
-        "Etiquetas": "Genero, Seguridad",
+        "Etiquetas": "Género, Seguridad",
         "Mes": "Agosto",
         "Año": 2017
     },
@@ -11,7 +11,7 @@ dataArchivo = [
         "Titulo": "El nuevo oro es verde: las farmaceuticas tras la marihuana",
         "Imagen": "marihuanamedicinalarchivo.png",
         "Link": "http://www.ladata.mx/s01c02/index.html",
-        "Etiquetas": "Salud, economia",
+        "Etiquetas": "Salud, economía",
         "Mes": "Agosto",
         "Año": 2017
     },
@@ -19,7 +19,7 @@ dataArchivo = [
         "Titulo": "¿Que se puede comprar con 60 mil millones de pesos?",
         "Imagen": "duartearchivo.png",
         "Link": "http://www.ladata.mx/s01c03/index.html",
-        "Etiquetas": "Gobierno, Politica, Corrupcion",
+        "Etiquetas": "Gobierno, Política, Corrupción",
         "Mes": "Agosto",
         "Año": 2017
     },
@@ -27,7 +27,7 @@ dataArchivo = [
         "Titulo": "Que se haga mi voluntad... !Y no la tuya!",
         "Imagen": "yodecidoarchivo.png",
         "Link": "http://www.ladata.mx/s01c04/index.html",
-        "Etiquetas": "Genero Salud, Desarrollo Social",
+        "Etiquetas": "Género Salud, Desarrollo Social",
         "Mes": "Agosto",
         "Año": 2017
     },
@@ -56,10 +56,10 @@ dataArchivo = [
         "Año": 2017
     },
     {
-        "Titulo": "Policiaas Comunitarios",
+        "Titulo": "Policias Comunitarios",
         "Imagen": "PoliciaComunitariaarchivo.png",
         "Link": "http://www.ladata.mx/s02c03/index.html",
-        "Etiquetas": " Seguridad, Indigenas",
+        "Etiquetas": " Seguridad, Indígenas",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -75,7 +75,7 @@ dataArchivo = [
         "Titulo": "Gastos de campaña: inversion en democracia o gasto a fondo perdido",
         "Imagen": "PresupuestoElectoralarchivo.png",
         "Link": "http://www.ladata.mx/s02c05/index.html",
-        "Etiquetas": "Politica, Gobierno, elecciones",
+        "Etiquetas": "Política, Gobierno, elecciones",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -83,7 +83,7 @@ dataArchivo = [
         "Titulo": "La trampa entre fronteras: deportados centroamericanos ",
         "Imagen": "migrantesarchivo.png",
         "Link": "http://www.ladata.mx/s03c01/index.html",
-        "Etiquetas": "Latinoamerica",
+        "Etiquetas": "Latinoamérica",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -99,7 +99,7 @@ dataArchivo = [
         "Titulo": "El CIG, el otro jugador en la contienda presidencial",
         "Imagen": "CNIarchivo.png",
         "Link": "http://www.ladata.mx/s03c03/index.html",
-        "Etiquetas": "Indigenas, Elecciones, Politica",
+        "Etiquetas": "Indigenas, Elecciones, Política",
         "Mes": "Septiembre",
         "Año": 2017
     },
@@ -107,7 +107,7 @@ dataArchivo = [
         "Titulo": "Y a los niños, ¿Quien los cuida?",
         "Imagen": "ninosarchivo.png",
         "Link": "http://www.ladata.mx/s03c04/index.html",
-        "Etiquetas": "Salud, Economia",
+        "Etiquetas": "Salud, Economía",
         "Mes": "Septiembre",
         "Año": 2017
     },
