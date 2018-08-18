@@ -101,6 +101,7 @@ header.sec{
 	height: -moz-calc( 100% - 60px);
 	height: calc( 100% - 60px);
 	margin: 40px auto 20px;
+	width: 100%;
 }
 #home{
 	width: 100%;
