@@ -14,10 +14,10 @@ $(document).ready(function(){
           <img src="img/buscar.svg" style="height: 25px; margin-left: 5px;">\
         </div>\
         <div class=" ptb-20px">\
-          <div class="col-sm-6 active" id="reciente">\
+          <div class="col-xs-6 active" id="reciente">\
             Reciente\
           </div>\
-          <div class="col-sm-6" id="archivo">\
+          <div class="col-xs-6" id="archivo">\
             Archivo\
           </div>\
         </div>\

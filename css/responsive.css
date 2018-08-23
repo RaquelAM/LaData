@@ -87,3 +87,8 @@
     display: block;
   }
 }
+@media screen and (max-width: 380px){
+  #logPinta{
+    font-size: 30px;
+  }
+}
