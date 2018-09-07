@@ -279,6 +279,11 @@ footer{
 	width: 100%;
 	margin: 15px 0;
 }
+.img-leyenda{
+	max-width: 250px;
+	margin-bottom: 30px;
+	width: 100%;
+}
 .img-info2{
 	max-width: 50%;
 	margin: auto;
@@ -492,4 +497,13 @@ footer{
 }
 .optSocial img{
 	width: 80%;
+}
+svg tspan{
+	font-family: 'Zilla Slab Highlight', cursive;
+}
+svg title{
+	font-family: 'Zilla Slab Highlight', cursive;
+}
+title{
+	font-family: 'Zilla Slab Highlight', cursive;
 }
