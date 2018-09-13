@@ -82,7 +82,9 @@ header.sec{
 .mt-20{
 	margin-top: 20px;
 }
-
+.mb-30{
+	margin-bottom: 30px;
+}
 
 /**Header home**/
 #ham, .pintaHome{

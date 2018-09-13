@@ -45,7 +45,7 @@ a:hover{
 	margin-top: 15px;
 }
 .mb-15{
-	margin-bottom: 15px;
+	margin-bottom: 15px !important;
 }
 .mt-50{
 	margin-top: 50px;
@@ -497,13 +497,4 @@ footer{
 }
 .optSocial img{
 	width: 80%;
-}
-svg tspan{
-	font-family: 'Zilla Slab Highlight', cursive;
-}
-svg title{
-	font-family: 'Zilla Slab Highlight', cursive;
-}
-title{
-	font-family: 'Zilla Slab Highlight', cursive;
 }

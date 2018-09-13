@@ -102,10 +102,11 @@
 
       $(".arrowRight").find("img.black").hide();
       $(".arrowLeft").find("img.black").hide();
+      var ww=$(window).width();
 
     	$("#sliderHome").mousemove(function(e){
 
-            if (e.pageX > 750) {
+            if (e.pageX > ww/2) {
               //$("#sliderHome").slick("slickNext");
               console.log(e.pageX);
               console.log("derecha");
